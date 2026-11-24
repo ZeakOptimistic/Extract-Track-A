@@ -134,11 +134,11 @@ def regular_islands(rectangles, slack):
                 yield shape
 
 
-def broken_rulings(gray):
+def broken_rulings(gray, *, masks=None):
     import cv2
     import numpy as np
 
-    horizontal, vertical = ruler_masks(gray)
+    horizontal, vertical = masks if masks is not None else ruler_masks(gray)
     shorter = min(gray.shape)
     gap = max(7, round(shorter * .025))
     slack = max(4, round(shorter * .005))

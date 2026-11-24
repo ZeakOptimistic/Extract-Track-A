@@ -7,7 +7,7 @@ import re
 from ..ingestion.tables import table_views
 from ..ingestion.tables import table_row_texts
 from ..ingestion.scoring import bbox_iou
-from . import complex_grids
+from . import complex_grids, rendered_grids
 from .column_alignment import comparison, independently_readable
 from .numeric_cells import compact
 from .ops_tables import chunk_template, grid_table_record, table_chunks
@@ -55,9 +55,12 @@ def physical_grids(tables):
 
 
 def table_panels(pdf, page, allow_complex, geometry_gate=None, *, allow_borderless=False):
+    occupied = []
     for table, panel in complex_grids.panels(pdf, page, allow_complex, geometry_gate, allow_borderless=allow_borderless):
         if panel is None:
-            yield from physical_grids([table])
+            for ruled in physical_grids([table]):
+                occupied.append(ruled["bbox"])
+                yield ruled
             continue
         headers = panel["header_rows"]
         grid = panel["grid"]
@@ -69,7 +72,18 @@ def table_panels(pdf, page, allow_complex, geometry_gate=None, *, allow_borderle
                 MEASUREMENT.fullmatch(value) for row in grid[headers:] for value in row):
             continue
         if plausible_grid([labels, *grid[headers:]]):
+            occupied.append(panel["bbox"])
             yield panel
+
+    def unclaimed(box):
+        return (not any(intersects(box, other) for other in occupied)
+                and (geometry_gate is None or geometry_gate(box, aligned=True)))
+
+    if allow_complex and page is not None:
+        for panel in rendered_grids.panels(pdf, page, unclaimed):
+            if plausible_grid(panel["grid"]):
+                yield dict(panel, rule=complex_grids.RULE)
+
 
 def independently_proven(page, panel, pdfium_words):
     """Both readers must read the same whole cell. This also checks that empty cells stay empty."""

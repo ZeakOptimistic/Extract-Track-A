@@ -188,7 +188,7 @@ class K1PoolTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             path = Path(temporary) / "chunks.jsonl"
             path.write_text("\n".join(json.dumps(r) for r in rows), encoding="utf-8")
-            with patch.dict("os.environ", {"GRAPHRAG_K1_CHUNKS": str(path)}):
+            with patch.dict("os.environ", {"GRAPHRAG_K1_CHUNKS": str(path), "GRAPHRAG_K1_ALLOW_RAW": "1"}):
                 self.assertEqual([c.id for c in pool("k1_ak3")], ["f1:s1:c0"])
                 self.assertEqual([c.id for c in pool("k1_daily")], ["f2:s1:c0"])
             with patch.dict("os.environ", {"GRAPHRAG_K1_CHUNKS": str(Path(temporary) / "missing.jsonl")}):

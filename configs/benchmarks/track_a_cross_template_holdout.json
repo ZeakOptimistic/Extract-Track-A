@@ -1,0 +1,176 @@
+{
+  "selection": "Two complete source bundles from the public mirror: a different geothermal well than the WellEz cohort and a different operator outside Utah",
+  "reference": "Header and weather phrases read from source page text in physical order before running Track A",
+  "documents": [
+    {
+      "doc_id": "forge-78b-dailyreport",
+      "file": "78B-32-DailyDrillingReports-6-27thru7-31.pdf",
+      "sha256": "b6a2bd72b8e51aa8a91b438b6016b4724e918b666acfb43cd2c08f9eadaca525",
+      "pages": 15,
+      "well": "FORGE 78B-32",
+      "family": "RIMBase 7.5 daily drilling report",
+      "source_url": "https://raw.githubusercontent.com/mhnajafi7/pdf-report-table-extractor/fb1a0b863cb31f8768bdebdc809c23ff5482a8cf/Docs/78B-32-DailyDrillingReports-6-27thru7-31.pdf",
+      "critical_phrases": {
+        "1": [
+          "Well ID: Forge 78B-32",
+          "Report No: 1",
+          "Measured Depth (ft): 128",
+          "Proposed TD (ft): 9500",
+          "Spud Date: 28-Jun-21"
+        ],
+        "4": [
+          "Well ID: Forge 78B-32",
+          "Report No: 2",
+          "Measured Depth (ft): 421",
+          "Next BOP Test: 19-Jul-21",
+          "Last Casing: 16.000 at 416"
+        ],
+        "6": [
+          "Report No: 2",
+          "Air Temperature: 66 degF",
+          "Bar. Pressure: 29.96",
+          "Wind Speed/Dir: 8 / NNE"
+        ],
+        "9": [
+          "Report No: 3",
+          "Sky Condition: Partly Cloudy",
+          "Air Temperature: 61 degF",
+          "Wind Gusts: 1"
+        ],
+        "12": [
+          "Well ID: Forge 78B-32",
+          "Report No: 4",
+          "Report For 30-Jun-21"
+        ]
+      },
+      "table_cells": [
+        {
+          "page": 5,
+          "row": "FULL",
+          "column": "Size (ins)",
+          "value": "16.000"
+        },
+        {
+          "page": 5,
+          "row": "FULL",
+          "column": "Bottom MD (ft)",
+          "value": "416"
+        },
+        {
+          "page": 8,
+          "row": "FULL",
+          "column": "Nom. Wgt. (lbs)",
+          "value": "65"
+        },
+        {
+          "page": 8,
+          "row": "FULL",
+          "column": "Nominal Grade",
+          "value": "K-55"
+        },
+        {
+          "page": 8,
+          "row": "FULL",
+          "column": "LOT (lbs/gal)",
+          "value": "19.20"
+        }
+      ]
+    },
+    {
+      "doc_id": "new-crown-1-dailyreport",
+      "file": "Appendix_8_Daily_Drilling_Reports.pdf",
+      "sha256": "4067cd3e1ba81c0ca0ac1fec8e6ec3fbe1236c53f03bd7c739db10869b1759ab",
+      "pages": 20,
+      "well": "New Crown 1",
+      "family": "Tri-Star daily drilling report",
+      "source_url": "https://raw.githubusercontent.com/mhnajafi7/pdf-report-table-extractor/fb1a0b863cb31f8768bdebdc809c23ff5482a8cf/Docs/Appendix_8_Daily_Drilling_Reports.pdf",
+      "critical_phrases": {
+        "1": [
+          "Report # 1",
+          "WELL New Crown 1",
+          "DATE 23-Feb-14",
+          "DAILY COST $960,186",
+          "ELEV. (RKB) 2.75m",
+          "DEPTH AT 0600 11.3"
+        ],
+        "5": [
+          "Report # 5",
+          "DATE 27-Feb-14",
+          "DEPTH AT 0600 120",
+          "TENEMENT EP 134"
+        ],
+        "10": [
+          "Report # 10",
+          "DATE 4-Mar-14",
+          "DAILY COST $54,812",
+          "DEPTH AT 0600 547m",
+          "NEXT TEST 11-Mar-14"
+        ],
+        "15": [
+          "Report # 15",
+          "DATE 9-Mar-14",
+          "DAILY COST $93,895",
+          "DEPTH AT 0600 960m (TD)"
+        ],
+        "20": [
+          "Report # 20",
+          "DATE 14-Mar-14",
+          "DAILY COST $6,873",
+          "CUM. COST $2,389,251",
+          "DEPTH AT 0600 960m (TD)"
+        ]
+      },
+      "table_cells": [
+        {
+          "page": 1,
+          "row": "16\"",
+          "column": "Make",
+          "value": "Ozcon"
+        },
+        {
+          "page": 1,
+          "row": "16\"",
+          "column": "Wt (lb/ft)",
+          "value": "75ppf"
+        },
+        {
+          "page": 1,
+          "row": "16\"",
+          "column": "Set at (mGL)",
+          "value": "10.5"
+        },
+        {
+          "page": 10,
+          "row": "9-5/8\"",
+          "column": "N. Joints",
+          "value": "10"
+        },
+        {
+          "page": 10,
+          "row": "9-5/8\"",
+          "column": "Length (m)",
+          "value": "120"
+        },
+        {
+          "page": 10,
+          "row": "9-5/8\"",
+          "column": "Set at (mGL)",
+          "value": "119"
+        },
+        {
+          "page": 15,
+          "row": "7\"",
+          "column": "Length (m)",
+          "value": "539"
+        },
+        {
+          "page": 15,
+          "row": "7\"",
+          "column": "Set at (mGL)",
+          "value": "536"
+        }
+      ]
+    }
+  ],
+  "table_reference": "Exact cell by page, first-column row anchor and complete column header with its printed unit. Read and transcribed from original PDF table coordinates."
+}

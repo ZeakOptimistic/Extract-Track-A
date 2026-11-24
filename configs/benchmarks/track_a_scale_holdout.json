@@ -1,0 +1,2985 @@
+{
+  "selection": "All original FORGE 16A drilling PDFs in the pinned archive, both complete E36 bundles, and both full operator bundles previously sampled on six pages total.",
+  "reference_notes": "Myrtle Basin report numbers on pages 38, 41, 44, 47 and 50 were corrected against the visible PDF boxes. The visible report numbers are 13 through 17.",
+  "documents": [
+    {
+      "doc_id": "forge-16a-dailyreport-002",
+      "file": "FORGE-16A-78-32_Drilling_002_2020-10-21.pdf",
+      "sha256": "60fd34bb6ac025d75e886d257d0afe80f5b572bf437db67c873bff6d63e9ae52",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_002_2020-10-21.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/21/2020",
+          "RPT NUM.: 2",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-003",
+      "file": "FORGE-16A-78-32_Drilling_003_2020-10-22.pdf",
+      "sha256": "0cc09f0961f5b73250d826e5df84a28d00293742d1daf466f6e1520c6cefa75d",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_003_2020-10-22.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/22/2020",
+          "RPT NUM.: 3",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-004",
+      "file": "FORGE-16A-78-32_Drilling_004_2020-10-23.pdf",
+      "sha256": "ced8b188c2b6bd4dbd3108299efbfbedf0bf911b132c1d00d9ac518f1e895b6e",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_004_2020-10-23.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/23/2020",
+          "RPT NUM.: 4",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-005",
+      "file": "FORGE-16A-78-32_Drilling_005_2020-10-24.pdf",
+      "sha256": "38180708100a30e76067340894ae5791aea1ca83d2d625a41972b7abb0054c2a",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_005_2020-10-24.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/24/2020",
+          "RPT NUM.: 5",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-006",
+      "file": "FORGE-16A-78-32_Drilling_006_2020-10-25.pdf",
+      "sha256": "af20b80c3afda6185a9e968a7ec02c8426fc38f07b94bdab81dc433705e07400",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_006_2020-10-25.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/25/2020",
+          "RPT NUM.: 6",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-007",
+      "file": "FORGE-16A-78-32_Drilling_007_2020-10-26.pdf",
+      "sha256": "9a952b70e7b89d0425af16efede41425b33b4ce13686b3a1ee3836e7c0456ad1",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_007_2020-10-26.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/26/2020",
+          "RPT NUM.: 7",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-008",
+      "file": "FORGE-16A-78-32_Drilling_008_2020-10-27.pdf",
+      "sha256": "1f1163d1e0b0239dbaefa9e84166e9e396fbfbf5c0c71c73f6bf0e7eac6788c6",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_008_2020-10-27.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/27/2020",
+          "RPT NUM.: 8",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-009",
+      "file": "FORGE-16A-78-32_Drilling_009_2020-10-28.pdf",
+      "sha256": "548dd3bb1618dc68728e6ea1c67da2b80bc1c0151ca1dac901de08eef0e390ce",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_009_2020-10-28.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/28/2020",
+          "RPT NUM.: 9",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-010",
+      "file": "FORGE-16A-78-32_Drilling_010_2020-10-29.pdf",
+      "sha256": "06c0740b3ecb8eace8b330a37dc3c17a966c35f797f54cb3b2d806d26094f6e6",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_010_2020-10-29.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/29/2020",
+          "RPT NUM.: 10",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-011",
+      "file": "FORGE-16A-78-32_Drilling_011_2020-10-30.pdf",
+      "sha256": "c32e82b0b0475df1c06c9f98820b66938486be098258e11074d6b0f45ec86bc4",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_011_2020-10-30.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/30/2020",
+          "RPT NUM.: 11",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-012",
+      "file": "FORGE-16A-78-32_Drilling_012_2020-10-31.pdf",
+      "sha256": "06ad19f3a37583bb9008c86866e9a6fe1d31a72e72c15e5973c61afd6535d002",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_012_2020-10-31.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 1629",
+          "HRS DRLG: 17.5",
+          "MD/TVD: 1629",
+          "RPT DATE: 10/31/2020",
+          "RPT NUM.: 12",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-013",
+      "file": "FORGE-16A-78-32_Drilling_013_2020-11-01.pdf",
+      "sha256": "55a7115e6d89d3142fc7581e80cea9114f9c075927b5fd1810fc3530410dd729",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_013_2020-11-01.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 1629",
+          "RPT DATE: 11/01/2020",
+          "RPT NUM.: 13",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-014",
+      "file": "FORGE-16A-78-32_Drilling_014_2020-11-02.pdf",
+      "sha256": "88f7f0daa65e6fd7872cbccccc0fafbedd4ff361c0eb10f7e31c1fcc287e5b7e",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_014_2020-11-02.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 1629",
+          "RPT DATE: 11/02/2020",
+          "RPT NUM.: 14",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-015",
+      "file": "FORGE-16A-78-32_Drilling_015_2020-11-03.pdf",
+      "sha256": "59a1b758ca1243c643046c9dc537bed104611ed57ef30e7a4fb3172adfd77508",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_015_2020-11-03.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 1629",
+          "RPT DATE: 11/03/2020",
+          "RPT NUM.: 15",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-016",
+      "file": "FORGE-16A-78-32_Drilling_016_2020-11-04.pdf",
+      "sha256": "f7714edfd4cb9cb93e4cb954b6fdb9ca109df07f028a0eed7e329baabe2f78b7",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_016_2020-11-04.pdf",
+      "critical_phrases": {
+        "1": [
+          "HRS DRLG: 3",
+          "MD/TVD: 1629",
+          "RPT DATE: 11/04/2020",
+          "RPT NUM.: 16",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-017",
+      "file": "FORGE-16A-78-32_Drilling_017_2020-11-05.pdf",
+      "sha256": "ae3372895977b907040f2c73d85c3909882936cd46e690eedc1794cadc51b81f",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_017_2020-11-05.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 1001",
+          "HRS DRLG: 12",
+          "MD/TVD: 2630",
+          "RPT DATE: 11/05/2020",
+          "RPT NUM.: 17",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-018",
+      "file": "FORGE-16A-78-32_Drilling_018_2020-11-06.pdf",
+      "sha256": "b4cf115cc55e050cc5de6605a3b2a28418db2b7dcd6473984ba8f9e7d4b5ecb8",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_018_2020-11-06.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 1354",
+          "HRS DRLG: 21.5",
+          "MD/TVD: 3984",
+          "RPT DATE: 11/06/2020",
+          "RPT NUM.: 18",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-019",
+      "file": "FORGE-16A-78-32_Drilling_019_2020-11-07.pdf",
+      "sha256": "8528f9e576ae9e1b1e19cc642c32ccc942774917793645d436d5994697602cee",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_019_2020-11-07.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 568",
+          "HRS DRLG: 18",
+          "MD/TVD: 4552",
+          "RPT DATE: 11/07/2020",
+          "RPT NUM.: 19",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-020",
+      "file": "FORGE-16A-78-32_Drilling_020_2020-11-08.pdf",
+      "sha256": "0ca79b5cee12985c648cf09bb17a5a5b877b90db51b52bc99cc89a0ceff0a40c",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_020_2020-11-08.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 259",
+          "HRS DRLG: 13.5",
+          "MD/TVD: 4811",
+          "RPT DATE: 11/08/2020",
+          "RPT NUM.: 20",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-021",
+      "file": "FORGE-16A-78-32_Drilling_021_2020-11-09.pdf",
+      "sha256": "0124a3b967f0bcee9d61f1101b0361be895ad819b37cb9d4f3cda423897f3100",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_021_2020-11-09.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 153",
+          "HRS DRLG: 16",
+          "MD/TVD: 4964",
+          "RPT DATE: 11/09/2020",
+          "RPT NUM.: 21",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-022",
+      "file": "FORGE-16A-78-32_Drilling_022_2020-11-10.pdf",
+      "sha256": "a626caa2a790307992a40a5ea93fda92435549a45725db71c52a1905af4fd795",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_022_2020-11-10.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 78",
+          "HRS DRLG: 7.5",
+          "MD/TVD: 5042",
+          "RPT DATE: 11/10/2020",
+          "RPT NUM.: 22",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-023",
+      "file": "FORGE-16A-78-32_Drilling_023_2020-11-11.pdf",
+      "sha256": "058bbae9a1509df9cb6706aaf82d77f5472b36a5adaf8b0ba45ae2e61102b28a",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_023_2020-11-11.pdf",
+      "critical_phrases": {
+        "1": [
+          "HRS DRLG: 9",
+          "RPT DATE: 11/11/2020",
+          "RPT NUM.: 23",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-024",
+      "file": "FORGE-16A-78-32_Drilling_024_2020-11-12.pdf",
+      "sha256": "565bc1bc72a9a4ab1b3a753bdf202336ec9ea81322a37f1cd4b257b49b7b1a8f",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_024_2020-11-12.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 71",
+          "MD/TVD: 5113",
+          "RPT DATE: 11/12/2020",
+          "RPT NUM.: 24",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-025",
+      "file": "FORGE-16A-78-32_Drilling_025_2020-11-13.pdf",
+      "sha256": "0a37b017c0feebb904fd35496c73df11de03f27a62ee393aa97fda64342fb32f",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_025_2020-11-13.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 11/13/2020",
+          "RPT NUM.: 25",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-026",
+      "file": "FORGE-16A-78-32_Drilling_026_2020-11-14.pdf",
+      "sha256": "64b91c507fe266200acc84eff5618cb9eb40e0deeb889c5e3473211836fd571f",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_026_2020-11-14.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 5113",
+          "RPT DATE: 11/14/2020",
+          "RPT NUM.: 26",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-027",
+      "file": "FORGE-16A-78-32_Drilling_027_2020-11-15.pdf",
+      "sha256": "8b8650f1a366f7671871954cc6b8e50cae24a7ba9f113ca6be0da55593b7ad00",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_027_2020-11-15.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 87",
+          "HRS DRLG: 2",
+          "MD/TVD: 5200",
+          "RPT DATE: 11/15/2020",
+          "RPT NUM.: 27",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-028",
+      "file": "FORGE-16A-78-32_Drilling_028_2020-11-16.pdf",
+      "sha256": "28392fa7141bffdffb0132325729ad46b30b2b070f9bc50bcc1b2120c9286277",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_028_2020-11-16.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 190",
+          "HRS DRLG: 17",
+          "MD/TVD: 5390",
+          "RPT DATE: 11/16/2020",
+          "RPT NUM.: 28",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-029",
+      "file": "FORGE-16A-78-32_Drilling_029_2020-11-17.pdf",
+      "sha256": "71b1aa40bfe2e74718857f9b3c5f2eac08392ca59416146d5f1253f2ae4fb1de",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_029_2020-11-17.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 83",
+          "HRS DRLG: 7.5",
+          "MD/TVD: 5473",
+          "RPT DATE: 11/17/2020",
+          "RPT NUM.: 29",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-030",
+      "file": "FORGE-16A-78-32_Drilling_030_2020-11-18.pdf",
+      "sha256": "5d728239764f17492fe4c03014b97da96592a5e8fe30c4d88052890891518a04",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_030_2020-11-18.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 22",
+          "MD/TVD: 5495",
+          "RPT DATE: 11/18/2020",
+          "RPT NUM.: 30",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-031",
+      "file": "FORGE-16A-78-32_Drilling_031_2020-11-19.pdf",
+      "sha256": "0d1777da0e5ee2243e274086b87c2e00daf715cf870c88a1b0e5273e2ce22a10",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_031_2020-11-19.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 10",
+          "MD/TVD: 5505",
+          "RPT DATE: 11/19/2020",
+          "RPT NUM.: 31",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-032",
+      "file": "FORGE-16A-78-32_Drilling_032_2020-11-20.pdf",
+      "sha256": "413d7ff12f3f74a721527d8749c46134c27a6f12a83859a2a8ab73184397d933",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_032_2020-11-20.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 136",
+          "HRS DRLG: 5.5",
+          "MD/TVD: 5641",
+          "RPT DATE: 11/20/2020",
+          "RPT NUM.: 32",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-033",
+      "file": "FORGE-16A-78-32_Drilling_033_2020-11-21.pdf",
+      "sha256": "9caa4accd638580ed8727ae777bbfb8c1454a5d12d65462be37f0c3d5485947c",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_033_2020-11-21.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 152",
+          "HRS DRLG: 24",
+          "MD/TVD: 5793",
+          "RPT DATE: 11/21/2020",
+          "RPT NUM.: 33",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-034",
+      "file": "FORGE-16A-78-32_Drilling_034_2020-11-22.pdf",
+      "sha256": "a281586851f055b1f1f5af239c6068314db85f0ad22936a106ee74ca750eff85",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_034_2020-11-22.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 62",
+          "HRS DRLG: 10",
+          "MD/TVD: 5855",
+          "RPT DATE: 11/22/2020",
+          "RPT NUM.: 34",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-035",
+      "file": "FORGE-16A-78-32_Drilling_035_2020-11-23.pdf",
+      "sha256": "36cc7d48253ce66f350ff62dfa64bbec2fc663a5225a1eca3bec1289b4e8a605",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_035_2020-11-23.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 23",
+          "HRS DRLG: 0.5",
+          "MD/TVD: 5878",
+          "RPT DATE: 11/23/2020",
+          "RPT NUM.: 35",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-036",
+      "file": "FORGE-16A-78-32_Drilling_036_2020-11-24.pdf",
+      "sha256": "f7d97e320f574d1d0c3656b3d526b9c171fe9e9bfc7ece2addd39beea22b6b0d",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_036_2020-11-24.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 138",
+          "HRS DRLG: 3",
+          "MD/TVD: 6016",
+          "RPT DATE: 11/24/2020",
+          "RPT NUM.: 36",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-037",
+      "file": "FORGE-16A-78-32_Drilling_037_2020-11-25.pdf",
+      "sha256": "6706f1065c29f91be53c63f57c2eed618c5a11215685ace7a3ee0d73c93ba4ba",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_037_2020-11-25.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 344",
+          "HRS DRLG: 12.5",
+          "MD/TVD: 6360",
+          "RPT DATE: 11/25/2020",
+          "RPT NUM.: 37",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-038",
+      "file": "FORGE-16A-78-32_Drilling_038_2020-11-26.pdf",
+      "sha256": "fb09fc86ae801aecc8c45de0da83d9fbe052ed6e835a36ca3ed2a4d7d7c3b16f",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_038_2020-11-26.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 147",
+          "MD/TVD: 6507",
+          "RPT DATE: 11/26/2020",
+          "RPT NUM.: 38",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-039",
+      "file": "FORGE-16A-78-32_Drilling_039_2020-11-27.pdf",
+      "sha256": "8dda96e1879921986833642fb09d0f6cf88076e2fdb01b9b70b9c9076c31e9a9",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_039_2020-11-27.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 217",
+          "HRS DRLG: 8",
+          "MD/TVD: 6724",
+          "RPT DATE: 11/27/2020",
+          "RPT NUM.: 39",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-040",
+      "file": "FORGE-16A-78-32_Drilling_040_2020-11-28.pdf",
+      "sha256": "0f3fb797d51974f82aa3294972000048b8db4105d9979ce98a048fe0600a591c",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_040_2020-11-28.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 221",
+          "HRS DRLG: 13.5",
+          "MD/TVD: 6945",
+          "RPT DATE: 11/28/2020",
+          "RPT NUM.: 40",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-041",
+      "file": "FORGE-16A-78-32_Drilling_041_2020-11-29.pdf",
+      "sha256": "e36e224fbd6bd39218658b6bc94a55216de7d415532a2146260fb61f6cbfb5e0",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_041_2020-11-29.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 349",
+          "HRS DRLG: 14.5",
+          "MD/TVD: 7294",
+          "RPT DATE: 11/29/2020",
+          "RPT NUM.: 41",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-042",
+      "file": "FORGE-16A-78-32_Drilling_042_2020-11-30.pdf",
+      "sha256": "cf37df1dc84cf4d3994f3e38baa69e57805a2d7dd70cb5dd191df6d6ae097f2f",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_042_2020-11-30.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 96",
+          "HRS DRLG: 3.5",
+          "MD/TVD: 7390",
+          "RPT DATE: 11/30/2020",
+          "RPT NUM.: 42",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-043",
+      "file": "FORGE-16A-78-32_Drilling_043_2020-12-01.pdf",
+      "sha256": "3dfaa87315df9c4a4b57257a588eebe684bb5955819ddea4349cda60bf4ec1b2",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_043_2020-12-01.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 7390",
+          "RPT DATE: 12/01/2020",
+          "RPT NUM.: 43",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-044",
+      "file": "FORGE-16A-78-32_Drilling_044_2020-12-02.pdf",
+      "sha256": "c75e0eb74c8891a26c808d22897fb7d7e79653619184d5d037d1e15aae2cdb7f",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_044_2020-12-02.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 7390",
+          "RPT DATE: 12/02/2020",
+          "RPT NUM.: 44",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-045",
+      "file": "FORGE-16A-78-32_Drilling_045_2020-12-03.pdf",
+      "sha256": "be15c6d8d89c92bfca0c70c72a05d07828a1de30ffa0ca15c1051e106d51edff",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_045_2020-12-03.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 7390",
+          "RPT DATE: 12/03/2020",
+          "RPT NUM.: 45",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-046",
+      "file": "FORGE-16A-78-32_Drilling_046_2020-12-04.pdf",
+      "sha256": "88b410ecee4673c717cf24d2bbe476a7d6203ae4fe87386ddaa9c8ed1e7a92b7",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_046_2020-12-04.pdf",
+      "critical_phrases": {
+        "1": [
+          "HRS DRLG: 0.5",
+          "MD/TVD: 7390",
+          "RPT DATE: 12/04/2020",
+          "RPT NUM.: 46",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-047",
+      "file": "FORGE-16A-78-32_Drilling_047_2020-12-05.pdf",
+      "sha256": "f68a8f395474f760d7ae8b76f1dbe4e9d68565c99b960dbd309acebdfe73e6a2",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_047_2020-12-05.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 600",
+          "HRS DRLG: 21",
+          "MD/TVD: 7990",
+          "RPT DATE: 12/05/2020",
+          "RPT NUM.: 47",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-048",
+      "file": "FORGE-16A-78-32_Drilling_048_2020-12-06.pdf",
+      "sha256": "ecceb51f55125e443db870d3c6d382a1f568fccecc92cbf3faf93754d1ef405d",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_048_2020-12-06.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 34",
+          "HRS DRLG: 1",
+          "MD/TVD: 8024",
+          "RPT DATE: 12/06/2020",
+          "RPT NUM.: 48",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-049",
+      "file": "FORGE-16A-78-32_Drilling_049_2020-12-07.pdf",
+      "sha256": "2acf62b43eee61bf371d0e6272884bde2ffe6a5b407a8d8ad163cddb6da96e47",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_049_2020-12-07.pdf",
+      "critical_phrases": {
+        "1": [
+          "MD/TVD: 8024",
+          "RPT DATE: 12/07/2020",
+          "RPT NUM.: 49",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-050",
+      "file": "FORGE-16A-78-32_Drilling_050_2020-12-08.pdf",
+      "sha256": "407de3250b26edf223ec68bccfac0b90250c2e8e889b9a715c13a8f81939f913",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_050_2020-12-08.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 217",
+          "HRS DRLG: 6",
+          "MD/TVD: 8241",
+          "RPT DATE: 12/08/2020",
+          "RPT NUM.: 50",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-051",
+      "file": "FORGE-16A-78-32_Drilling_051_2020-12-09.pdf",
+      "sha256": "c8559729c09a3a3120204de2bf488d4ab56c26d08d4b3bc2bc6b52c03e761d8c",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_051_2020-12-09.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 150",
+          "HRS DRLG: 3.5",
+          "MD/TVD: 8391",
+          "RPT DATE: 12/09/2020",
+          "RPT NUM.: 51",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-052",
+      "file": "FORGE-16A-78-32_Drilling_052_2020-12-10.pdf",
+      "sha256": "b68aed9f4d06e9427e3c471aa6165c4faabdb4008a656f7203817c63e4ced257",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_052_2020-12-10.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 144",
+          "HRS DRLG: 2.5",
+          "RPT DATE: 12/10/2020",
+          "RPT NUM.: 52",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-053",
+      "file": "FORGE-16A-78-32_Drilling_053_2020-12-11.pdf",
+      "sha256": "53fcf830460e4d0703b3181c6597cb83895c1c55db019549b9691bdcc298eb8b",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_053_2020-12-11.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/11/2020",
+          "RPT NUM.: 53",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-054",
+      "file": "FORGE-16A-78-32_Drilling_054_2020-12-12.pdf",
+      "sha256": "630a69c4c7bf9e031ae0e0f04fe6f8df84698467a09fcf7bdb35b4e75194f5cb",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_054_2020-12-12.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/12/2020",
+          "RPT NUM.: 54",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-055",
+      "file": "FORGE-16A-78-32_Drilling_055_2020-12-13.pdf",
+      "sha256": "83390cf187f48329cb58b9b765222ff074c1450f637e76576c655fccfa8e12f7",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_055_2020-12-13.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 529",
+          "HRS DRLG: 12.5",
+          "RPT DATE: 12/13/2020",
+          "RPT NUM.: 55",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-056",
+      "file": "FORGE-16A-78-32_Drilling_056_2020-12-14.pdf",
+      "sha256": "91a77109f38f505dfed6d55475427985fdbe983e09a0d7a9f892d4a7c8db46b1",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_056_2020-12-14.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 628",
+          "HRS DRLG: 15",
+          "RPT DATE: 12/14/2020",
+          "RPT NUM.: 56",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-057",
+      "file": "FORGE-16A-78-32_Drilling_057_2020-12-15.pdf",
+      "sha256": "812e638aa27df2a1f54c72bf7748df351805842e5659ede7a743aad56bac3fb8",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_057_2020-12-15.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 56",
+          "HRS DRLG: 2.5",
+          "RPT DATE: 12/15/2020",
+          "RPT NUM.: 57",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-058",
+      "file": "FORGE-16A-78-32_Drilling_058_2020-12-16.pdf",
+      "sha256": "b6eb457f50e85776c744238573b2e89efe1314148b51b176b9c8845fd85bc671",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_058_2020-12-16.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/16/2020",
+          "RPT NUM.: 58",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-059",
+      "file": "FORGE-16A-78-32_Drilling_059_2020-12-17.pdf",
+      "sha256": "d6846267e129b5cb93f78e5e2cd8dc74e6c7121e2801d6c6b511183a9d113d73",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_059_2020-12-17.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 213",
+          "HRS DRLG: 5",
+          "RPT DATE: 12/17/2020",
+          "RPT NUM.: 59",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-060",
+      "file": "FORGE-16A-78-32_Drilling_060_2020-12-18.pdf",
+      "sha256": "1c9d1349bceb8d55d1a43d4a7ebfc66878ad3d169d1b026e428e8d88fe82e298",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_060_2020-12-18.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 529",
+          "HRS DRLG: 12",
+          "RPT DATE: 12/18/2020",
+          "RPT NUM.: 60",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-061",
+      "file": "FORGE-16A-78-32_Drilling_061_2020-12-19.pdf",
+      "sha256": "9a1048a6ef0893507143931c9deb39dfd5166982ff3a6095d33d976e85465746",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_061_2020-12-19.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 465",
+          "HRS DRLG: 10",
+          "RPT DATE: 12/19/2020",
+          "RPT NUM.: 61",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-062",
+      "file": "FORGE-16A-78-32_Drilling_062_2020-12-20.pdf",
+      "sha256": "771d37cacfffa7c9742428029181b05fb731199ceb53d823f563dd09ffbe8f43",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_062_2020-12-20.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/20/2020",
+          "RPT NUM.: 62",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-063",
+      "file": "FORGE-16A-78-32_Drilling_063_2020-12-21.pdf",
+      "sha256": "13083b6f7a24e4b5c37ed353be2732105fc5efe11cffae2877886aebb12b3a5b",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_063_2020-12-21.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/21/2020",
+          "RPT NUM.: 63",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-064",
+      "file": "FORGE-16A-78-32_Drilling_064_2020-12-22.pdf",
+      "sha256": "63587d86a3ebbffb53632f3d95f2a259300172ab414b5b36bd869315d8120810",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_064_2020-12-22.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/22/2020",
+          "RPT NUM.: 64",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-065",
+      "file": "FORGE-16A-78-32_Drilling_065_2020-12-23.pdf",
+      "sha256": "d5e9bda451b72408ae494ef61967bed5ce5976368330b0e4158124e6edd33315",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_065_2020-12-23.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 16",
+          "RPT DATE: 12/23/2020",
+          "RPT NUM.: 65",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-066",
+      "file": "FORGE-16A-78-32_Drilling_066_2020-12-24.pdf",
+      "sha256": "00b6ac178520e0ff7674d7cb782c2e3365da931c55d7e399abde01ebfe0d416b",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_066_2020-12-24.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR FTG: 16",
+          "RPT DATE: 12/24/2020",
+          "RPT NUM.: 66",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-067",
+      "file": "FORGE-16A-78-32_Drilling_067_2020-12-25.pdf",
+      "sha256": "4596dbc094556b30df8fbe87caca5e1b1bd23ebe218d0e60bb10c200fc1325f5",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_067_2020-12-25.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/25/2020",
+          "RPT NUM.: 67",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-068",
+      "file": "FORGE-16A-78-32_Drilling_068_2020-12-26.pdf",
+      "sha256": "21bf39324e504e175ab603479118ddc2b18b1e1cc49bb386ff17767eee434337",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_068_2020-12-26.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/26/2020",
+          "RPT NUM.: 68",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-069",
+      "file": "FORGE-16A-78-32_Drilling_069_2020-12-27.pdf",
+      "sha256": "bcf108c30b431e7514ad5c21d4a1df33585ca8799b6d318b35b009c20658e028",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_069_2020-12-27.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/27/2020",
+          "RPT NUM.: 69",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-070",
+      "file": "FORGE-16A-78-32_Drilling_070_2020-12-28.pdf",
+      "sha256": "e1c65a5336e5760aa0b24bf96d57a5043e04b8a89d72ff3ec4a12a22a54829a0",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_070_2020-12-28.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/28/2020",
+          "RPT NUM.: 70",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-071",
+      "file": "FORGE-16A-78-32_Drilling_071_2020-12-29.pdf",
+      "sha256": "2866ca3e7f807dafeba34a1f35aff0733afdee250b617029a2b1c899dc1c6bb1",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_071_2020-12-29.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/29/2020",
+          "RPT NUM.: 71",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-072",
+      "file": "FORGE-16A-78-32_Drilling_072_2020-12-30.pdf",
+      "sha256": "7af69214ede1f8bdfca0d23d6d89d124d3b25f5ca29817f6131f01eaab2ee408",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_072_2020-12-30.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/30/2020",
+          "RPT NUM.: 72",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-073",
+      "file": "FORGE-16A-78-32_Drilling_073_2020-12-31.pdf",
+      "sha256": "ea0aa5ed43b40d91e093a5ef1a30c1bb4d38e7426c4f4f56b16f3aca1d51112d",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_073_2020-12-31.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/31/2020",
+          "RPT NUM.: 73",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-074",
+      "file": "FORGE-16A-78-32_Drilling_074_2021-01-01.pdf",
+      "sha256": "e45694ad4d139fa666c2f5da0f95d55bd51d18ff006ac7ae1762e14ad9d72f5b",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_074_2021-01-01.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 01/01/2021",
+          "RPT NUM.: 74",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-075",
+      "file": "FORGE-16A-78-32_Drilling_075_2021-01-02.pdf",
+      "sha256": "060d498868db0ba44a3f39fccb5a5636ab2120122676fe3f359a93ca161ef66a",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "cohort": "unseen_document",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_075_2021-01-02.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 01/02/2021",
+          "RPT NUM.: 75",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-076",
+      "file": "FORGE-16A-78-32_Drilling_076_2021-01-03.pdf",
+      "sha256": "845b3e7ce439b7c96680ac50284eef9b920a382b8afe660514e170cc5164cea1",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_076_2021-01-03.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 01/03/2021",
+          "RPT NUM.: 76",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      },
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "forge-78b-dailyreport",
+      "file": "78B-32-DailyDrillingReports-6-27thru7-31.pdf",
+      "sha256": "b6a2bd72b8e51aa8a91b438b6016b4724e918b666acfb43cd2c08f9eadaca525",
+      "pages": 15,
+      "well": "FORGE 78B-32",
+      "family": "RIMBase 7.5 daily drilling report",
+      "source_url": "https://raw.githubusercontent.com/mhnajafi7/pdf-report-table-extractor/fb1a0b863cb31f8768bdebdc809c23ff5482a8cf/Docs/78B-32-DailyDrillingReports-6-27thru7-31.pdf",
+      "critical_phrases": {
+        "1": [
+          "Measured Depth (ft): 128",
+          "Proposed TD (ft): 9500",
+          "Report For 27-Jun-21",
+          "Report No: 1",
+          "Spud Date: 28-Jun-21",
+          "Well ID: Forge 78B-32"
+        ],
+        "4": [
+          "Last Casing: 16.000 at 416",
+          "Measured Depth (ft): 421",
+          "Next BOP Test: 19-Jul-21",
+          "Proposed TD (ft): 9500",
+          "Report For 28-Jun-21",
+          "Report No: 2",
+          "Well ID: Forge 78B-32"
+        ],
+        "6": [
+          "Air Temperature: 66 degF",
+          "Bar. Pressure: 29.96",
+          "Report For 28-Jun-21",
+          "Report No: 2",
+          "Well ID: Forge 78B-32",
+          "Wind Gusts: 2",
+          "Wind Speed/Dir: 8 / NNE"
+        ],
+        "9": [
+          "Air Temperature: 61 degF",
+          "Bar. Pressure: 29.94",
+          "Report For 29-Jun-21",
+          "Report No: 3",
+          "Sky Condition: Partly Cloudy",
+          "Well ID: Forge 78B-32",
+          "Wind Gusts: 1",
+          "Wind Speed/Dir: 4 / NW"
+        ],
+        "12": [
+          "Air Temperature: 75 degF",
+          "Bar. Pressure: 29.94",
+          "Report For 30-Jun-21",
+          "Report No: 4",
+          "Well ID: Forge 78B-32",
+          "Wind Gusts: 2",
+          "Wind Speed/Dir: 10 / W"
+        ],
+        "2": [
+          "Report For 27-Jun-21",
+          "Report No: 1",
+          "Well ID: Forge 78B-32"
+        ],
+        "3": [
+          "Air Temperature: 56 degF",
+          "Bar. Pressure: 29.87",
+          "Report For 27-Jun-21",
+          "Report No: 1",
+          "Well ID: Forge 78B-32",
+          "Wind Gusts: 12",
+          "Wind Speed/Dir: 10 / SE"
+        ],
+        "5": [
+          "Report For 28-Jun-21",
+          "Report No: 2",
+          "Well ID: Forge 78B-32"
+        ],
+        "7": [
+          "Measured Depth (ft): 433",
+          "Proposed TD (ft): 9500",
+          "Report For 29-Jun-21",
+          "Report No: 3",
+          "Well ID: Forge 78B-32"
+        ],
+        "8": [
+          "Report For 29-Jun-21",
+          "Report No: 3",
+          "Well ID: Forge 78B-32"
+        ],
+        "10": [
+          "Measured Depth (ft): 2699",
+          "Proposed TD (ft): 9500",
+          "Report For 30-Jun-21",
+          "Report No: 4",
+          "Well ID: Forge 78B-32"
+        ],
+        "11": [
+          "Report For 30-Jun-21",
+          "Report No: 4",
+          "Well ID: Forge 78B-32"
+        ],
+        "13": [
+          "Measured Depth (ft): 2699",
+          "Proposed TD (ft): 9500",
+          "Report For 01-Jul-21",
+          "Report No: 5",
+          "Well ID: Forge 78B-32"
+        ],
+        "14": [
+          "Report For 01-Jul-21",
+          "Report No: 5",
+          "Well ID: Forge 78B-32"
+        ],
+        "15": [
+          "Air Temperature: 70 degF",
+          "Bar. Pressure: 29.83",
+          "Report For 01-Jul-21",
+          "Report No: 5",
+          "Well ID: Forge 78B-32",
+          "Wind Gusts: 1",
+          "Wind Speed/Dir: 6 / NNW"
+        ]
+      },
+      "table_cells": [
+        {
+          "page": 5,
+          "row": "FULL",
+          "column": "Size (ins)",
+          "value": "16.000"
+        },
+        {
+          "page": 5,
+          "row": "FULL",
+          "column": "Bottom MD (ft)",
+          "value": "416"
+        },
+        {
+          "page": 8,
+          "row": "FULL",
+          "column": "Nom. Wgt. (lbs)",
+          "value": "65"
+        },
+        {
+          "page": 8,
+          "row": "FULL",
+          "column": "Nominal Grade",
+          "value": "K-55"
+        },
+        {
+          "page": 8,
+          "row": "FULL",
+          "column": "LOT (lbs/gal)",
+          "value": "19.20"
+        }
+      ],
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "new-crown-1-dailyreport",
+      "file": "Appendix_8_Daily_Drilling_Reports.pdf",
+      "sha256": "4067cd3e1ba81c0ca0ac1fec8e6ec3fbe1236c53f03bd7c739db10869b1759ab",
+      "pages": 20,
+      "well": "New Crown 1",
+      "family": "Tri-Star daily drilling report",
+      "source_url": "https://raw.githubusercontent.com/mhnajafi7/pdf-report-table-extractor/fb1a0b863cb31f8768bdebdc809c23ff5482a8cf/Docs/Appendix_8_Daily_Drilling_Reports.pdf",
+      "critical_phrases": {
+        "1": [
+          "CUM. COST $960,186",
+          "DAILY COST $960,186",
+          "DATE 23-Feb-14",
+          "DEPTH AT 0600 11.3",
+          "ELEV. (RKB) 2.75m",
+          "Report # 1",
+          "WELL New Crown 1"
+        ],
+        "5": [
+          "DATE 27-Feb-14",
+          "DEPTH AT 0600 120",
+          "Report # 5",
+          "TENEMENT EP 134",
+          "WELL New Crown 1"
+        ],
+        "10": [
+          "CUM. COST $1,686,527",
+          "DAILY COST $54,812",
+          "DATE 4-Mar-14",
+          "DEPTH AT 0600 547m",
+          "NEXT TEST 11-Mar-14",
+          "Report # 10",
+          "WELL New Crown 1"
+        ],
+        "15": [
+          "CUM. COST $2,036,881",
+          "DAILY COST $93,895",
+          "DATE 9-Mar-14",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 15",
+          "WELL New Crown 1"
+        ],
+        "20": [
+          "CUM. COST $2,389,251",
+          "DAILY COST $6,873",
+          "DATE 14-Mar-14",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 20",
+          "WELL New Crown 1"
+        ],
+        "2": [
+          "CUM. COST $1,014,896",
+          "DAILY COST $54,710",
+          "DEPTH AT 0600 11.3",
+          "Report # 2",
+          "WELL New Crown 1"
+        ],
+        "3": [
+          "CUM. COST $1,074,639",
+          "DAILY COST $59,743",
+          "DEPTH AT 0600 120",
+          "Report # 3",
+          "WELL New Crown 1"
+        ],
+        "4": [
+          "DAILY COST $70,573",
+          "DEPTH AT 0600 120m",
+          "Report # 4",
+          "WELL New Crown 1"
+        ],
+        "6": [
+          "CUM. COST $1,359,672",
+          "DAILY COST $88,894",
+          "DEPTH AT 0600 120",
+          "Report # 6",
+          "WELL New Crown 1"
+        ],
+        "7": [
+          "CUM. COST $1,414,383",
+          "DAILY COST $54,710",
+          "DEPTH AT 0600 418m",
+          "Report # 7",
+          "WELL New Crown 1"
+        ],
+        "8": [
+          "CUM. COST $1,480,143",
+          "DAILY COST $65,760",
+          "DEPTH AT 0600 545m",
+          "Report # 8",
+          "WELL New Crown 1"
+        ],
+        "9": [
+          "CUM. COST $1,631,715",
+          "DEPTH AT 0600 545m",
+          "Report # 9",
+          "WELL New Crown 1"
+        ],
+        "11": [
+          "CUM. COST $1,746,433",
+          "DAILY COST $59,906",
+          "DEPTH AT 0600 737m",
+          "Report # 11",
+          "WELL New Crown 1"
+        ],
+        "12": [
+          "CUM. COST $1,801,931",
+          "DAILY COST $55,498",
+          "DEPTH AT 0600 894",
+          "Report # 12",
+          "WELL New Crown 1"
+        ],
+        "13": [
+          "CUM. COST $1,867,209",
+          "DAILY COST $65,278",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 13",
+          "WELL New Crown 1"
+        ],
+        "14": [
+          "CUM. COST $1,942,987",
+          "DAILY COST $75,777",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 14",
+          "WELL New Crown 1"
+        ],
+        "16": [
+          "CUM. COST $2,348,321",
+          "DAILY COST $311,439",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 16",
+          "WELL New Crown 1"
+        ],
+        "17": [
+          "CUM. COST $2,368,325",
+          "DAILY COST $20,004",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 17",
+          "WELL New Crown 1"
+        ],
+        "18": [
+          "CUM. COST $2,375,402",
+          "DAILY COST $7,077",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 18",
+          "WELL New Crown 1"
+        ],
+        "19": [
+          "CUM. COST $2,382,378",
+          "DAILY COST $6,975",
+          "DEPTH AT 0600 960m (TD)",
+          "Report # 19",
+          "WELL New Crown 1"
+        ]
+      },
+      "table_cells": [
+        {
+          "page": 1,
+          "row": "16\"",
+          "column": "Make",
+          "value": "Ozcon"
+        },
+        {
+          "page": 1,
+          "row": "16\"",
+          "column": "Wt (lb/ft)",
+          "value": "75ppf"
+        },
+        {
+          "page": 1,
+          "row": "16\"",
+          "column": "Set at (mGL)",
+          "value": "10.5"
+        },
+        {
+          "page": 10,
+          "row": "9-5/8\"",
+          "column": "N. Joints",
+          "value": "10"
+        },
+        {
+          "page": 10,
+          "row": "9-5/8\"",
+          "column": "Length (m)",
+          "value": "120"
+        },
+        {
+          "page": 10,
+          "row": "9-5/8\"",
+          "column": "Set at (mGL)",
+          "value": "119"
+        },
+        {
+          "page": 15,
+          "row": "7\"",
+          "column": "Length (m)",
+          "value": "539"
+        },
+        {
+          "page": 15,
+          "row": "7\"",
+          "column": "Set at (mGL)",
+          "value": "536"
+        },
+        {
+          "page": 3,
+          "row": "16\"",
+          "column": "Wt (lb/ft)",
+          "value": "75ppf"
+        },
+        {
+          "page": 3,
+          "row": "16\"",
+          "column": "Set at (mGL)",
+          "value": "10.5"
+        },
+        {
+          "page": 12,
+          "row": "9-5/8\"",
+          "column": "N. Joints",
+          "value": "10"
+        },
+        {
+          "page": 12,
+          "row": "9-5/8\"",
+          "column": "Length (m)",
+          "value": "120"
+        },
+        {
+          "page": 12,
+          "row": "7\"",
+          "column": "Set at (mGL)",
+          "value": "536"
+        },
+        {
+          "page": 19,
+          "row": "7\"",
+          "column": "Length (m)",
+          "value": "539"
+        },
+        {
+          "page": 19,
+          "row": "7\"",
+          "column": "N. Joints",
+          "value": "43"
+        },
+        {
+          "page": 4,
+          "row": "9-5/8\"",
+          "column": "Set at (mGL)",
+          "value": "119"
+        },
+        {
+          "page": 4,
+          "row": "9-5/8\"",
+          "column": "Comment",
+          "value": "STC thread, float above first joint, all joints centralised"
+        },
+        {
+          "page": 6,
+          "row": "9-5/8\"",
+          "column": "Grade",
+          "value": "J55"
+        },
+        {
+          "page": 6,
+          "row": "9-5/8\"",
+          "column": "Wt (lb/ft)",
+          "value": "36ppf"
+        },
+        {
+          "page": 6,
+          "row": "16\"",
+          "column": "Length (m)",
+          "value": "12"
+        },
+        {
+          "page": 9,
+          "row": "7\"",
+          "column": "Length (m)",
+          "value": "539"
+        },
+        {
+          "page": 9,
+          "row": "7\"",
+          "column": "Set at (mGL)",
+          "value": "536"
+        },
+        {
+          "page": 9,
+          "row": "9-5/8\"",
+          "column": "N. Joints",
+          "value": "10"
+        },
+        {
+          "page": 17,
+          "row": "9-5/8\"",
+          "column": "Set at (mGL)",
+          "value": "119"
+        },
+        {
+          "page": 17,
+          "row": "7\"",
+          "column": "N. Joints",
+          "value": "43"
+        },
+        {
+          "page": 17,
+          "row": "7\"",
+          "column": "Length (m)",
+          "value": "539"
+        }
+      ],
+      "cohort": "regression"
+    },
+    {
+      "doc_id": "armour-myrtle-basin-dailyreport",
+      "file": "PR20140005_Daily_Drilling_Report.pdf",
+      "sha256": "bd48110b9c8ac42452976e14b33a2e50ff44fe917b241479d27595977e788494",
+      "pages": 60,
+      "well": "Myrtle Basin 1",
+      "family": "Armour Energy daily drilling report",
+      "cohort": "mostly_unseen_pages",
+      "prior_review_pages": [
+        1,
+        10,
+        35
+      ],
+      "source_url": "https://raw.githubusercontent.com/mhnajafi7/pdf-report-table-extractor/fb1a0b863cb31f8768bdebdc809c23ff5482a8cf/Docs/PR20140005_Daily_Drilling_Report.pdf",
+      "critical_phrases": {
+        "1": [
+          "24 HR PROG.: 17.8m",
+          "DATE: 13/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 1",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "2": [
+          "DATE: 13/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 1",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "3": [
+          "Report # 1",
+          "Report Date: 14/09/2013",
+          "Report For 13/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "4": [
+          "24 HR PROG.: 17.8m",
+          "DATE: 14/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 2",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "5": [
+          "DATE: 14/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 2",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "6": [
+          "Report # 2",
+          "Report Date: 15/09/2013",
+          "Report For 14/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "7": [
+          "DATE: 15/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 3",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "8": [
+          "DATE: 15/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 3",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "9": [
+          "Report # 3",
+          "Report Date: 16/09/2013",
+          "Report For 15/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "10": [
+          "DATE: 16/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 4",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "11": [
+          "DATE: 15/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 4",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "12": [
+          "Report # 4",
+          "Report Date: 17/09/2013",
+          "Report For 16/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "13": [
+          "DATE: 16/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 5",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "14": [
+          "DATE: 15/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 5",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "15": [
+          "Report # 5",
+          "Report Date: 18/09/2013",
+          "Report For 17/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "16": [
+          "DATE: 18/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 6",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "17": [
+          "DATE: 18/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 6",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "18": [
+          "Report # 6",
+          "Report Date: 19/09/2013",
+          "Report For 18/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "19": [
+          "DATE: 19/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 7",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "20": [
+          "DATE: 19/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 7",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "21": [
+          "Report # 7",
+          "Report Date: 20/09/2013",
+          "Report For 19/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "22": [
+          "DATE: 20/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 8",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "23": [
+          "DATE: 20/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 8",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "24": [
+          "Report # 8",
+          "Report Date: 21/09/2013",
+          "Report For 20/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "25": [
+          "DATE: 21/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 9",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "26": [
+          "DATE: 21/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 9",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "27": [
+          "Report # 9",
+          "Report Date: 22/09/2013",
+          "Report For 21/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "28": [
+          "DATE: 22/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 10",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "29": [
+          "DATE: 22/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 10",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "30": [
+          "Report # 10",
+          "Report Date: 23/09/2013",
+          "Report For 22/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "31": [
+          "DATE: 23/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 11",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "32": [
+          "DATE: 23/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 11",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "33": [
+          "Report # 11",
+          "Report Date: 24/09/2013",
+          "Report For 23/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "34": [
+          "DATE: 24/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 12",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "35": [
+          "DATE: 24/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 12",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "36": [
+          "Report # 12",
+          "Report Date: 25/09/2013",
+          "Report For 24/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "37": [
+          "24 HR PROG.: 18m",
+          "DATE: 25/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 13",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "38": [
+          "DATE: 25/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 13",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "39": [
+          "Report # 13",
+          "Report Date: 26/09/2013",
+          "Report For 25/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "40": [
+          "DATE: 26/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 14",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "41": [
+          "DATE: 26/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 14",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "42": [
+          "Report # 14",
+          "Report Date: 27/09/2013",
+          "Report For 26/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "43": [
+          "DATE: 27/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 15",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "44": [
+          "DATE: 27/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 15",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "45": [
+          "Report # 15",
+          "Report Date: 28/09/2013",
+          "Report For 27/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "46": [
+          "DATE: 28/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 16",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "47": [
+          "DATE: 28/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 16",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "48": [
+          "Report # 16",
+          "Report Date: 29/09/2013",
+          "Report For 28/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "49": [
+          "DATE: 29/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 17",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "50": [
+          "DATE: 29/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 17",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "51": [
+          "Report # 17",
+          "Report Date: 30/09/2013",
+          "Report For 29/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "52": [
+          "DATE: 30/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 18",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "53": [
+          "DATE: 30/09/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 18",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "54": [
+          "Report # 18",
+          "Report Date: 1/10/2013",
+          "Report For 30/09/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "55": [
+          "DATE: 1/10/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 19",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "56": [
+          "DATE: 1/10/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 19",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "57": [
+          "Report # 19",
+          "Report Date: 2/10/2013",
+          "Report For 1/10/2013",
+          "WELL: Myrtle Basin 1"
+        ],
+        "58": [
+          "DATE: 2/10/2013",
+          "PERMIT: EP 176",
+          "REPORT No. 20",
+          "RIG: Nitro 1",
+          "WELL: Myrtle Basin 1"
+        ],
+        "59": [
+          "DATE: 2/10/2013",
+          "PERMIT: EP 176",
+          "REPORT No: 20",
+          "RIG: Nitro # 7",
+          "WELL: Myrtle Basin 1"
+        ],
+        "60": [
+          "Report # 20",
+          "Report Date: 3/10/2013",
+          "Report For 2/10/2013",
+          "WELL: Myrtle Basin 1"
+        ]
+      },
+      "table_cells": [
+        {
+          "page": 2,
+          "row": "00:00",
+          "column": "TO",
+          "value": "06:00"
+        },
+        {
+          "page": 2,
+          "row": "00:00",
+          "column": "HOURS",
+          "value": "6.0"
+        },
+        {
+          "page": 2,
+          "row": "06:00",
+          "column": "TO",
+          "value": "07:00"
+        },
+        {
+          "page": 2,
+          "row": "07:00",
+          "column": "HOURS",
+          "value": "1.0"
+        },
+        {
+          "page": 14,
+          "row": "00:00",
+          "column": "TO",
+          "value": "01:00"
+        },
+        {
+          "page": 14,
+          "row": "01:00",
+          "column": "TO",
+          "value": "04:00"
+        },
+        {
+          "page": 14,
+          "row": "01:00",
+          "column": "HOURS",
+          "value": "3.0"
+        },
+        {
+          "page": 14,
+          "row": "04:00",
+          "column": "HOURS",
+          "value": "2.0"
+        }
+      ]
+    },
+    {
+      "doc_id": "eastern-palm-valley-dailyreport",
+      "file": "PR2019W019_Appendix_F_Daily_Drilling_Reports.pdf",
+      "sha256": "0bd08d13e390a78651d9d58c9a3952178ff44e5466785ec3534138f84eb42801",
+      "pages": 59,
+      "well": "Palm Valley 13",
+      "family": "Central Petroleum Palm Valley daily drilling report",
+      "cohort": "mostly_unseen_pages",
+      "prior_review_pages": [
+        1,
+        20,
+        50
+      ],
+      "source_url": "https://raw.githubusercontent.com/mhnajafi7/pdf-report-table-extractor/fb1a0b863cb31f8768bdebdc809c23ff5482a8cf/Docs/PR2019W019_Appendix_F_Daily_Drilling_Reports.pdf",
+      "critical_phrases": {
+        "1": [
+          "24:00 MD/ TVD 23.5 / 23m",
+          "CUM. $5,259,127",
+          "DAILY COST $129,022",
+          "LAST CASING 508mm 20.0'' SET AT 23.5m",
+          "REPORT # 001 21/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "2": [
+          "24:00 MD/ TVD 23.5 / 23m",
+          "CUM. $5,370,682",
+          "DAILY COST $111,556",
+          "LAST CASING 508mm 20.0'' SET AT 23.5m",
+          "REPORT # 002 22/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "3": [
+          "24:00 MD/ TVD 114m",
+          "CUM. $5,455,621",
+          "DAILY COST $84,939",
+          "LAST CASING 508mm 20.0'' SET AT 23.5m",
+          "REPORT # 003 23/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "4": [
+          "24:00 MD/ TVD 232m",
+          "CUM. $5,545,305",
+          "DAILY COST $89,684",
+          "LAST CASING 508mm 20.0'' SET AT 23.5m",
+          "REPORT # 004 24/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "5": [
+          "24:00 MD/ TVD 249m",
+          "CUM. $5,631,010",
+          "DAILY COST $85,705",
+          "LAST CASING 508mm 20.0'' SET AT 23.5m",
+          "REPORT # 005 25/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "6": [
+          "24:00 MD/ TVD 268m",
+          "CUM. $5,779,172",
+          "DAILY COST $148,162",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 006 26/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "7": [
+          "24:00 MD/ TVD 494m",
+          "CUM. $5,872,309",
+          "DAILY COST $90,396",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 007 27/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "8": [
+          "24:00 MD/ TVD 527m",
+          "CUM. $5,977,056",
+          "DAILY COST $104,747",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 008 28/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "9": [
+          "24:00 MD/ TVD 622m",
+          "CUM. $6,063,659",
+          "DAILY COST $86,602",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 009 29/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "10": [
+          "24:00 MD/ TVD 701m",
+          "CUM. $6,149,475",
+          "DAILY COST $85,816",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 010 30/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "11": [
+          "24:00 MD/ TVD 717m",
+          "CUM. $6,288,499",
+          "DAILY COST $139,024",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 011 31/08/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "12": [
+          "24:00 MD/ TVD 758m",
+          "CUM. $6,391,172",
+          "DAILY COST $102,674",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 012 1/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "13": [
+          "24:00 MD/ TVD 758m",
+          "CUM. $6,474,132",
+          "DAILY COST $82,960",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 013 2/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "14": [
+          "24:00 MD/ TVD 758m",
+          "CUM. $6,560,950",
+          "DAILY COST $84,818",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 014 3/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "15": [
+          "24:00 MD/ TVD 758m",
+          "CUM. $6,645,767",
+          "DAILY COST $84,818",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 015 4/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "16": [
+          "24:00 MD/ TVD 758m",
+          "CUM. $6,730,529",
+          "DAILY COST $84,762",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 016 5/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "17": [
+          "24:00 MD/ TVD 758m",
+          "CUM. $6,910,403",
+          "DAILY COST $179,873",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 017 6/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "18": [
+          "24:00 MD/ TVD 955m",
+          "CUM. $7,001,633",
+          "DAILY COST $91,230",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 018 7/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "19": [
+          "24:00 MD/ TVD 1014m",
+          "CUM. $7,090,401",
+          "DAILY COST $88,768",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 019 8/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "20": [
+          "24:00 MD/ TVD 1092m",
+          "CUM. $7,227,425",
+          "DAILY COST $137,202",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 020 9/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "21": [
+          "24:00 MD/ TVD 1119m",
+          "CUM. $7,466,021",
+          "DAILY COST $238,596",
+          "LAST CASING 340mm 13.375'' SET AT 249.0m",
+          "REPORT # 021 10/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "22": [
+          "24:00 MD/ TVD 1119m",
+          "CUM. $7,550,783",
+          "DAILY COST $84,762",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 022 11/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "23": [
+          "24:00 MD/ TVD 1119m",
+          "CUM. $7,659,280",
+          "DAILY COST $108,497",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 023 12/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "24": [
+          "24:00 MD/ TVD 1203m",
+          "CUM. $7,991,300",
+          "DAILY COST $169,162",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 024 13/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "25": [
+          "24:00 MD/ TVD 1368 / 1365m",
+          "CUM. $8,157,073",
+          "DAILY COST $115,773",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 025 14/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "26": [
+          "24:00 MD/ TVD 1423 / 1417m",
+          "CUM. $8,276,021",
+          "DAILY COST $109,948",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 026 15/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "27": [
+          "24:00 MD/ TVD 1436 / 1430m",
+          "CUM. $8,443,757",
+          "DAILY COST $165,736",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 027 16/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "28": [
+          "24:00 MD/ TVD 1456 / 1448m",
+          "CUM. $8,611,847",
+          "DAILY COST $168,090",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 028 17/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "29": [
+          "24:00 MD/ TVD 1534 / 1519m",
+          "CUM. $8,737,076",
+          "DAILY COST $120,229",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 029 18/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "30": [
+          "24:00 MD/ TVD 1600 / 1577m",
+          "CUM. $8,849,900",
+          "DAILY COST $111,824",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 030 19/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "31": [
+          "24:00 MD/ TVD 1675 / 1642m",
+          "CUM. $8,967,303",
+          "DAILY COST $117,403",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 031 20/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "32": [
+          "24:00 MD/ TVD 1733 / 1691m",
+          "CUM. $9,088,320",
+          "DAILY COST $121,017",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 032 21/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "33": [
+          "24:00 MD/ TVD 1753 / 1707m",
+          "CUM. $9,258,321",
+          "DAILY COST $170,001",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 033 22/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "34": [
+          "24:00 MD/ TVD 1845 / 1782m",
+          "CUM. $9,395,083",
+          "DAILY COST $124,761",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 034 23/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "35": [
+          "24:00 MD/ TVD 1845 / 1782m",
+          "CUM. $9,530,026",
+          "DAILY COST $126,943",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 035 24/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "36": [
+          "24:00 MD/ TVD 1845 / 1782m",
+          "CUM. $9,997,697",
+          "DAILY COST $467,671",
+          "LAST CASING 244mm 9.625'' SET AT 1116.5m",
+          "REPORT # 036 25/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "37": [
+          "24:00 MD/ TVD 1845 / 1782m",
+          "CUM. $10,292,116",
+          "DAILY COST $292,419",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 037 26/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "38": [
+          "24:00 MD/ TVD 1845 / 1782m",
+          "CUM. $10,573,975",
+          "DAILY COST $281,859",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 038 27/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "39": [
+          "24:00 MD/ TVD 1848 / 1784m",
+          "CUM. $10,683,657",
+          "DAILY COST $109,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 039 28/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "40": [
+          "24:00 MD/ TVD 1848 / 1784m",
+          "CUM. $10,856,823",
+          "DAILY COST $173,166",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 040 29/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "41": [
+          "24:00 MD/ TVD 1946 / 1861m",
+          "CUM. $10,979,505",
+          "DAILY COST $122,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 041 30/09/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "42": [
+          "24:00 MD/ TVD 1965 / 1876m",
+          "CUM. $11,086,187",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 042 1/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "43": [
+          "24:00 MD/ TVD 1965 / 1876m",
+          "CUM. $11,192,869",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 043 2/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "44": [
+          "24:00 MD/ TVD 1984 / 1889m",
+          "CUM. $11,315,551",
+          "DAILY COST $122,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 044 3/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "45": [
+          "24:00 MD/ TVD 2012 / 1909m",
+          "CUM. $11,422,233",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 045 4/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "46": [
+          "24:00 MD/ TVD 2022 / 1916m",
+          "CUM. $11,528,915",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 046 5/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "47": [
+          "24:00 MD/ TVD 2022 / 1914m",
+          "CUM. $11,671,597",
+          "DAILY COST $142,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 047 6/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "48": [
+          "24:00 MD/ TVD 2075 / 1943m",
+          "CUM. $11,778,279",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 048 7/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "49": [
+          "24:00 MD/ TVD 2126 / 1964m",
+          "CUM. $11,884,961",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 049 8/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "50": [
+          "24:00 MD/ TVD 2133 / 1967m",
+          "CUM. $11,991,643",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 050 9/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "51": [
+          "24:00 MD/ TVD 2133 / 1967m",
+          "CUM. $12,098,325",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 051 10/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "52": [
+          "24:00 MD/ TVD 2160 / 1975m",
+          "CUM. $12,205,007",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 052 11/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "53": [
+          "24:00 MD/ TVD 2231 / 1987m",
+          "CUM. $12,205,007",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 053 12/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "54": [
+          "24:00 MD/ TVD 2242 / 1989m",
+          "CUM. $12,418,371",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 054 13/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "55": [
+          "24:00 MD/ TVD 2242 / 1989m",
+          "CUM. $12,525,053",
+          "DAILY COST $106,682",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 055 14/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "56": [
+          "24:00 MD/ TVD 2242 / 1989m",
+          "CUM. $12,689,603",
+          "DAILY COST $164,550",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 056 15/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "57": [
+          "24:00 MD/ TVD 2242 / 1989m",
+          "CUM. $12,908,896",
+          "DAILY COST $219,293",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 057 16/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "58": [
+          "24:00 MD/ TVD 2242 / 1989m",
+          "CUM. $13,022,529",
+          "DAILY COST $113,633",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 058 17/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ],
+        "59": [
+          "24:00 MD/ TVD 2242 / 1989m",
+          "CUM. $13,070,415",
+          "DAILY COST $47,886",
+          "LAST CASING 178mm 7.0'' SET AT 1842.0m",
+          "REPORT # 059 18/10/2018",
+          "RIG ENSIGN 932",
+          "SPUD: 21/08/2018",
+          "WELL Palm Valley 13"
+        ]
+      },
+      "table_cells": [
+        {
+          "page": 2,
+          "row": "0:00",
+          "column": "To",
+          "value": "3:00"
+        },
+        {
+          "page": 2,
+          "row": "3:00",
+          "column": "To",
+          "value": "4:30"
+        },
+        {
+          "page": 13,
+          "row": "0:00",
+          "column": "To",
+          "value": "2:30"
+        },
+        {
+          "page": 13,
+          "row": "2:30",
+          "column": "To",
+          "value": "3:00"
+        },
+        {
+          "page": 30,
+          "row": "0:00",
+          "column": "To",
+          "value": "6:00"
+        },
+        {
+          "page": 30,
+          "row": "6:00",
+          "column": "To",
+          "value": "11:00"
+        },
+        {
+          "page": 47,
+          "row": "0:00",
+          "column": "To",
+          "value": "2:30"
+        },
+        {
+          "page": 47,
+          "row": "2:30",
+          "column": "To",
+          "value": "7:00"
+        }
+      ]
+    }
+  ],
+  "phrase_reference": "E35/E36 pinned phrases plus unique literal labeled source phrases selected from physically sorted PyMuPDF text by family before scoring. Placeholders are excluded. Phrases are limited to the labels represented by these checks.",
+  "table_reference": "Original E36 casing cells plus E37 and newly transcribed casing and time-table cells. Exact unique row, printed column and cell value are required."
+}

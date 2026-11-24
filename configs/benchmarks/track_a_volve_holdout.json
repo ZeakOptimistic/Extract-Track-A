@@ -1,0 +1,466 @@
+{
+  "selection": "Six consecutive digitized daily summaries starting at the one-third index of the dated archive for each of four Volve wellbores. Each original page is copied unchanged into a chronological PDF bundle per wellbore. Full original input hashes and page pointers are recorded.",
+  "revision": "94f620b667d24e0386774bb2792f41e959eebd83",
+  "source_repository": "https://github.com/0melek1/drilling-data-extraction-pipeline",
+  "reference": "Literal header phrases read from source PDF pages, frozen before candidate evaluation.",
+  "documents": [
+    {
+      "doc_id": "volve-15-9-19-a-dailyreport",
+      "file": "15-9-19-a.pdf",
+      "sha256": "21579039f051ea62b97eeb06d7d83d3411dc428b19842ffcee63e6dc16b25c17",
+      "pages": 11,
+      "well": "15_9_19_A",
+      "family": "Equinor Volve WITSML PDF summary",
+      "source_url": "https://github.com/0melek1/drilling-data-extraction-pipeline",
+      "cohort": "unseen_document",
+      "critical_phrases": {
+        "1": [
+          "Wellbore: 15/9-19 A",
+          "Period: 1997-08-29 00:00 - 1997-08-30 00:00",
+          "Report number: 37",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 4131",
+          "Depth mTVD: 3319",
+          "Depth at Kick Off mMD: 2178"
+        ],
+        "3": [
+          "Wellbore: 15/9-19 A",
+          "Period: 1997-08-30 00:00 - 1997-08-31 00:00",
+          "Report number: 38",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 4131",
+          "Depth mTVD: 3319",
+          "Depth at Kick Off mMD: 2178"
+        ],
+        "5": [
+          "Wellbore: 15/9-19 A",
+          "Period: 1997-08-31 00:00 - 1997-09-01 00:00",
+          "Report number: 39",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 4131",
+          "Depth mTVD: 3319",
+          "Depth at Kick Off mMD: 2178"
+        ],
+        "7": [
+          "Wellbore: 15/9-19 A",
+          "Period: 1997-09-01 00:00 - 1997-09-02 00:00",
+          "Report number: 40",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 4131",
+          "Depth mTVD: 3319",
+          "Depth at Kick Off mMD: 2178"
+        ],
+        "9": [
+          "Wellbore: 15/9-19 A",
+          "Period: 1997-09-02 00:00 - 1997-09-03 00:00",
+          "Report number: 41",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 4131",
+          "Depth mTVD: 3319",
+          "Depth at Kick Off mMD: 2178"
+        ],
+        "11": [
+          "Wellbore: 15/9-19 A",
+          "Period: 1997-09-03 00:00 - 1997-09-04 00:00",
+          "Report number: 42",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 4131",
+          "Depth mTVD: 3319",
+          "Depth at Kick Off mMD: 2178"
+        ]
+      },
+      "source_pages": [
+        {
+          "file": "15_9_19_A_1997_08_30.pdf",
+          "sha256": "ec83b6016e8ba677b46a7dad8f866829091ce12421e1ecea5977701c2e5055bb",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_A_1997_08_30.pdf",
+          "first_bundle_page": 1,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_A_1997_08_31.pdf",
+          "sha256": "f919b18269e40b764ede39f33c6e90dbe39f98bc3bc73f429921965a79c23cb1",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_A_1997_08_31.pdf",
+          "first_bundle_page": 3,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_A_1997_09_01.pdf",
+          "sha256": "c2902e3445220dfb1f6b762153eb8b1a65c5158e45d3a2386b7c2256b737de87",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_A_1997_09_01.pdf",
+          "first_bundle_page": 5,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_A_1997_09_02.pdf",
+          "sha256": "a01b19c69af1112ac2178d4715934c73419ffe558e02a949d76b8d9f4564f6b9",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_A_1997_09_02.pdf",
+          "first_bundle_page": 7,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_A_1997_09_03.pdf",
+          "sha256": "ef7a821571eea9c96d54c0d5fcf9085af1f465973e25784f1e540fada56623c4",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_A_1997_09_03.pdf",
+          "first_bundle_page": 9,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_A_1997_09_04.pdf",
+          "sha256": "b3eb257d5097d157b2ae6052321b033060ff98f3f9042b77173da22ec5c95ce3",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_A_1997_09_04.pdf",
+          "first_bundle_page": 11,
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "volve-15-9-19-bt2-dailyreport",
+      "file": "15-9-19-bt2.pdf",
+      "sha256": "44e685794f89288f660e0e4b5569b4f6266355268a8a903a7eda4c5c724b63b9",
+      "pages": 12,
+      "well": "15_9_19_BT2",
+      "family": "Equinor Volve WITSML PDF summary",
+      "source_url": "https://github.com/0melek1/drilling-data-extraction-pipeline",
+      "cohort": "unseen_document",
+      "critical_phrases": {
+        "1": [
+          "Wellbore: 15/9-19 BT2",
+          "Period: 1997-12-25 00:00 - 1997-12-26 00:00",
+          "Report number: 21",
+          "Operator: Statoil",
+          "Status: normal",
+          "Dist Drilled (m): 53",
+          "Depth mMd: 3656",
+          "Depth mTVD: 2835.8",
+          "Depth at Kick Off mMD: 2911"
+        ],
+        "3": [
+          "Wellbore: 15/9-19 BT2",
+          "Period: 1997-12-26 00:00 - 1997-12-27 00:00",
+          "Report number: 22",
+          "Operator: Statoil",
+          "Status: normal",
+          "Dist Drilled (m): 34",
+          "Depth mMd: 3690",
+          "Depth mTVD: 2835.8",
+          "Depth at Kick Off mMD: 2911"
+        ],
+        "5": [
+          "Wellbore: 15/9-19 BT2",
+          "Period: 1997-12-27 00:00 - 1997-12-28 00:00",
+          "Report number: 23",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 3690",
+          "Depth mTVD: 2864.4",
+          "Depth at Kick Off mMD: 2911"
+        ],
+        "7": [
+          "Wellbore: 15/9-19 BT2",
+          "Period: 1997-12-28 00:00 - 1997-12-29 00:00",
+          "Report number: 24",
+          "Operator: Statoil",
+          "Status: normal",
+          "Dist Drilled (m): 27",
+          "Depth mMd: 3717",
+          "Depth mTVD: 2887",
+          "Depth at Kick Off mMD: 2911"
+        ],
+        "9": [
+          "Wellbore: 15/9-19 BT2",
+          "Period: 1997-12-29 00:00 - 1997-12-30 00:00",
+          "Report number: 25",
+          "Operator: Statoil",
+          "Status: normal",
+          "Dist Drilled (m): 170",
+          "Depth mMd: 3887",
+          "Depth mTVD: 3039.1",
+          "Depth at Kick Off mMD: 2911"
+        ],
+        "11": [
+          "Wellbore: 15/9-19 BT2",
+          "Period: 1997-12-30 00:00 - 1997-12-31 00:00",
+          "Report number: 26",
+          "Operator: Statoil",
+          "Status: normal",
+          "Dist Drilled (m): 144",
+          "Depth mMd: 4031",
+          "Depth mTVD: 3169.1",
+          "Depth at Kick Off mMD: 2911"
+        ]
+      },
+      "source_pages": [
+        {
+          "file": "15_9_19_BT2_1997_12_26.pdf",
+          "sha256": "8502ab9613e763b35c36cad51d030fb4a09d3985a67da635247ae972d050f4ae",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_BT2_1997_12_26.pdf",
+          "first_bundle_page": 1,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_BT2_1997_12_27.pdf",
+          "sha256": "537486ec481635f34de21910ca3c70be3ed77064f2fb6453e278cd235edb7713",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_BT2_1997_12_27.pdf",
+          "first_bundle_page": 3,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_BT2_1997_12_28.pdf",
+          "sha256": "02ab3945c323c7022a11ddd10f4902d96069fc7b0d988e3632997f3de9d45cb0",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_BT2_1997_12_28.pdf",
+          "first_bundle_page": 5,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_BT2_1997_12_29.pdf",
+          "sha256": "b4586c998deb459f25402376317f76d6011da5cdbfe693f2a938b1f08b06d203",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_BT2_1997_12_29.pdf",
+          "first_bundle_page": 7,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_BT2_1997_12_30.pdf",
+          "sha256": "1a37eae7e16162ede8485de15a108926701b483b68fdaae93e3845159710b8b6",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_BT2_1997_12_30.pdf",
+          "first_bundle_page": 9,
+          "pages": 2
+        },
+        {
+          "file": "15_9_19_BT2_1997_12_31.pdf",
+          "sha256": "cfd677b6ab5f7f446ad5acc24b269801068efe0776f0696f892f6bcb074e32cb",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_19_BT2_1997_12_31.pdf",
+          "first_bundle_page": 11,
+          "pages": 2
+        }
+      ]
+    },
+    {
+      "doc_id": "volve-15-9-f-11-dailyreport",
+      "file": "15-9-f-11.pdf",
+      "sha256": "104983a73ee306028dfd2b3f14a41eabf043bba79bd66844ed96856b2b1d7534",
+      "pages": 12,
+      "well": "15_9_F_11",
+      "family": "Equinor Volve WITSML PDF summary",
+      "source_url": "https://github.com/0melek1/drilling-data-extraction-pipeline",
+      "cohort": "unseen_document",
+      "critical_phrases": {
+        "1": [
+          "Wellbore: 15/9-F-11",
+          "Period: 2013-03-12 00:00 - 2013-03-13 00:00",
+          "Report number: 6",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 208",
+          "Depth mTVD: 208"
+        ],
+        "3": [
+          "Wellbore: 15/9-F-11",
+          "Period: 2013-03-13 00:00 - 2013-03-14 00:00",
+          "Report number: 7",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 208",
+          "Depth mTVD: 208"
+        ],
+        "5": [
+          "Wellbore: 15/9-F-11",
+          "Period: 2013-03-14 00:00 - 2013-03-15 00:00",
+          "Report number: 8",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 208",
+          "Depth mTVD: 208"
+        ],
+        "7": [
+          "Wellbore: 15/9-F-11",
+          "Period: 2013-03-15 00:00 - 2013-03-16 00:00",
+          "Report number: 9",
+          "Operator: Statoil",
+          "Status: normal",
+          "Depth mMd: 208",
+          "Depth mTVD: 208"
+        ],
+        "9": [
+          "Wellbore: 15/9-F-11",
+          "Period: 2013-03-16 00:00 - 2013-03-17 00:00",
+          "Report number: 10",
+          "Operator: Statoil",
+          "Status: normal",
+          "Dist Drilled (m): 16",
+          "Depth mMd: 224",
+          "Depth mTVD: 224"
+        ],
+        "11": [
+          "Wellbore: 15/9-F-11",
+          "Period: 2013-03-17 00:00 - 2013-03-18 00:00",
+          "Report number: 11",
+          "Operator: Statoil",
+          "Status: normal",
+          "Dist Drilled (m): 58",
+          "Depth mMd: 282",
+          "Depth mTVD: 282"
+        ]
+      },
+      "source_pages": [
+        {
+          "file": "15_9_F_11_2013_03_13.pdf",
+          "sha256": "3dc9facdd5d64b04b53de32b6b527b9c65d3e1e2316208fdcc8de5d1dbb157be",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_11_2013_03_13.pdf",
+          "first_bundle_page": 1,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_11_2013_03_14.pdf",
+          "sha256": "797f443cf7e62cd9d183b364408ade5fab151ea1afbc1c998636af25b5242fc9",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_11_2013_03_14.pdf",
+          "first_bundle_page": 3,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_11_2013_03_15.pdf",
+          "sha256": "cddcaee2be5745ee09858ed9a02831ae35c9418d38106774c7a46ec7d370c814",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_11_2013_03_15.pdf",
+          "first_bundle_page": 5,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_11_2013_03_16.pdf",
+          "sha256": "abf53c24d0d70bfa51abcfdb1808d285662cc8f02aa62267b9ad168f8161f84c",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_11_2013_03_16.pdf",
+          "first_bundle_page": 7,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_11_2013_03_17.pdf",
+          "sha256": "f3f8acc11eb9ac07a9a6dd5515633ff863e2bc5a85744c23af143a12f2609bbe",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_11_2013_03_17.pdf",
+          "first_bundle_page": 9,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_11_2013_03_18.pdf",
+          "sha256": "50dd7d165abb9c9478607e2a60b8e7c2f375ead929d261b3277118668945fd18",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_11_2013_03_18.pdf",
+          "first_bundle_page": 11,
+          "pages": 2
+        }
+      ]
+    },
+    {
+      "doc_id": "volve-15-9-f-14-dailyreport",
+      "file": "15-9-f-14.pdf",
+      "sha256": "27f18f90d1822ec4b857cfe597d908d9b4b36d486b9ee89d810f3fd841120df7",
+      "pages": 12,
+      "well": "15_9_F_14",
+      "family": "Equinor Volve WITSML PDF summary",
+      "source_url": "https://github.com/0melek1/drilling-data-extraction-pipeline",
+      "cohort": "unseen_document",
+      "critical_phrases": {
+        "1": [
+          "Wellbore: 15/9-F-14",
+          "Period: 2008-05-29 00:00 - 2008-05-30 00:00",
+          "Report number: 44",
+          "Status: normal",
+          "Dist Drilled (m): 0",
+          "Depth mMd: 2788",
+          "Depth mTVD: 2728.4"
+        ],
+        "3": [
+          "Wellbore: 15/9-F-14",
+          "Period: 2008-05-30 00:00 - 2008-05-31 00:00",
+          "Report number: 45",
+          "Status: normal",
+          "Dist Drilled (m): 0",
+          "Depth mMd: 2788",
+          "Depth mTVD: 2728.4"
+        ],
+        "5": [
+          "Wellbore: 15/9-F-14",
+          "Period: 2008-05-31 00:00 - 2008-06-01 00:00",
+          "Report number: 46",
+          "Status: normal",
+          "Dist Drilled (m): 0",
+          "Depth mMd: 2788",
+          "Depth mTVD: 2728.4"
+        ],
+        "7": [
+          "Wellbore: 15/9-F-14",
+          "Period: 2008-06-01 00:00 - 2008-06-02 00:00",
+          "Report number: 47",
+          "Status: normal",
+          "Dist Drilled (m): 0",
+          "Depth mMd: 2788",
+          "Depth mTVD: 2728.4"
+        ],
+        "9": [
+          "Wellbore: 15/9-F-14",
+          "Period: 2008-06-02 00:00 - 2008-06-03 00:00",
+          "Report number: 48",
+          "Status: normal",
+          "Dist Drilled (m): 0",
+          "Depth mMd: 2788",
+          "Depth mTVD: 2728.4"
+        ],
+        "11": [
+          "Wellbore: 15/9-F-14",
+          "Period: 2008-06-03 00:00 - 2008-06-04 00:00",
+          "Report number: 49",
+          "Status: normal",
+          "Depth mMd: 2788",
+          "Depth mTVD: 2728.4"
+        ]
+      },
+      "source_pages": [
+        {
+          "file": "15_9_F_14_2008_05_30.pdf",
+          "sha256": "e5dab2350670eca72c9cb82c5392cfaa97a38840baf72ef489d7dbb6a33e21ec",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_14_2008_05_30.pdf",
+          "first_bundle_page": 1,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_14_2008_05_31.pdf",
+          "sha256": "da697ea0af84d8d06b5846fbdbc4adfb928575e5e0cee493e806ce0d821136b4",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_14_2008_05_31.pdf",
+          "first_bundle_page": 3,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_14_2008_06_01.pdf",
+          "sha256": "ebb73f9035ddd42b950f6a86ece0d30f810702962b8716d4fedc25d429bb325f",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_14_2008_06_01.pdf",
+          "first_bundle_page": 5,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_14_2008_06_02.pdf",
+          "sha256": "c6492edb860cf2f8a19d79af8cdfffbedbc199d7a0b7652a51ee1fb671381471",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_14_2008_06_02.pdf",
+          "first_bundle_page": 7,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_14_2008_06_03.pdf",
+          "sha256": "4c4ce58b06f135645cac58a8bedc8714c88507d0511fb142f2f433c4b0127fca",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_14_2008_06_03.pdf",
+          "first_bundle_page": 9,
+          "pages": 2
+        },
+        {
+          "file": "15_9_F_14_2008_06_04.pdf",
+          "sha256": "32465bbb7649ed43ddcfdd94787bbdbbce324d2615132c6c419d60e7e84a3ab2",
+          "source_url": "https://raw.githubusercontent.com/0melek1/drilling-data-extraction-pipeline/94f620b667d24e0386774bb2792f41e959eebd83/Task_DS/PDF_version_1000/15_9_F_14_2008_06_04.pdf",
+          "first_bundle_page": 11,
+          "pages": 2
+        }
+      ]
+    }
+  ]
+}

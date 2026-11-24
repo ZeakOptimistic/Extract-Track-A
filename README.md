@@ -1,15 +1,16 @@
-# Secure LLM and Knowledge Graph Platform
+# Drilling Report Extraction and Knowledge Graph
 
 A capstone project for the Vietnam Petroleum Institute (VPI): a secure, on-premise **GraphRAG application for drilling reports**.
 
-- It ingests end-of-well and daily drilling reports and parses pages and tables with vision-language models.
+- It ingests end-of-well and daily drilling reports and extracts passages, forms and tables with source provenance.
 - It extracts entities and relations under an ontology the user supplies, and links every well to one ID across documents.
 - It answers questions with citations to the source page.
 
-Administrators manage documents, the ontology and the glossary, and correct low-confidence items; end users ask questions. Models are **open-weight and about 7B parameters or smaller**; commercial models and APIs are never used. The direction comes from the [28 October supervisor meeting](docs/requirements/supervisor-meeting-2026-10-28.md). The work is a capstone application, not a research project.
+Administrators manage documents, the ontology and the glossary, and correct low-confidence items; end users ask questions. The application is designed for on-premise operation. The direction comes from the [28 October supervisor meeting](docs/requirements/supervisor-meeting-2026-10-28.md).
 
 **Start here.**
 
+- Start Track A with the [operating guide](docs/components/track-a-operation.md) and [validation report](docs/reports/track-a-validation.md).
 - The [project specification](docs/PROJECT_DESIGN.md) is the single source of truth.
 - The [development plan](docs/DEVELOPMENT_PLAN.md) has the milestones and this week's tasks.
 - The [documentation index](docs/README.md) lists everything else.
@@ -21,18 +22,18 @@ Development uses public data ([data sources](docs/DATA_SOURCES.md)): [BSEE well 
 **29 October:** the design was rewritten for the GraphRAG direction (specification 3.0).
 
 - **Carries over:** ingestion, structured-data import, the entity registry and an extraction/QA prototype.
-- **Not built yet:** the GraphRAG pipeline, VLM parsing, object and vector storage, the ID scheme across stores, and the frontend.
+- **Planned at that review:** additional retrieval, storage, shared identifiers and application work.
 - **Next:** ingestion and data organization on one end-of-well and one daily report, then a one-document GraphRAG slice ([plan](docs/DEVELOPMENT_PLAN.md#current-status)).
 
 | Component | Purpose | Status |
 |---|---|---|
-| Document ingestion | Files to page-provenanced passage and table chunks (Docling, Markdown tables, rows never split) | Implemented ([guide](docs/components/corpus-ingestion.md)); baseline for the VLM comparison |
-| VLM page parsing and multi-page tables | Pages and tables to Markdown/HTML with a document VLM; continued tables joined with headers carried | Planned (M1, Track A) |
+| Document ingestion | Files to page-provenanced passage and table chunks (Docling, Markdown tables, table rows retained) | Implemented ([guide](docs/components/corpus-ingestion.md)) |
+| Table extraction and continuation | K1 table grids, verified continuations and source-backed cell evidence | Implemented for supported layouts ([validation](docs/reports/track-a-validation.md)) |
 | Storage and ID scheme | MinIO for files, PostgreSQL for metadata and chunks, a vector store, Neo4j; file → page → parent → child chunk → vector → graph | Planned (M1, Track C) |
 | Structured-data import | CSV/Excel/JSON-lines to typed records with row provenance; BSEE as a mapping | Implemented ([guide](docs/components/dataset-import.md), [E6](docs/experiments/E6-generic-import-bsee.md)) |
 | Entity registry | One ID per well; 57,453 wellbores and 39,518 wells from BSEE; identifier or scoped-name resolution | Implemented ([guide](docs/components/entity-registry.md), [E13](docs/experiments/E13-entity-registry-bsee.md)); report linking planned |
 | GraphRAG pipeline | Existing open-source base, ontology injection, extraction, embeddings, graph and vector retrieval, cited answers | Planned (M1, Track B); base chosen by comparison |
-| Extraction/QA prototype | Ontology file, local LLM extraction, Neo4j, template QA on 15 AK-3 chunks | Implemented as the baseline ([prototype](prototype/README.md), [E10](docs/experiments/E10-profile-driven-prototype.md)) |
+| Extraction/QA prototype | Ontology file, local extraction, Neo4j, template QA on 15 AK-3 chunks | Implemented as the baseline ([prototype](prototype/README.md), [E10](docs/experiments/E10-profile-driven-prototype.md)) |
 | Application | Chat with citations; admin for documents, ontology, glossary, flagged items | Planned (M4) |
 
 ## Quick start
@@ -44,17 +45,17 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python -m pip install -r requirements.lock.txt
 .\.venv\Scripts\python -m pip install -e . --no-deps
 .\.venv\Scripts\Activate.ps1
-python -m unittest discover -s tests          # about 1,190 tests, a few minutes with the cached PDF regression
+python -m unittest discover -s tests
 python -m unittest prototype.test_ontology    # 14 prototype tests (profiles, validator, duplicate search, generation check)
 ```
 
 The lock file is the verified Windows CPU environment (`pywin32` is marked Windows-only). A tested Linux/GPU deployment lock remains to be produced after the host is confirmed; manually omitting Windows-only packages does not establish an equivalent deployment environment. Without the lock, `pip install -e ".[ocr,qa]"` installs the same pinned packages.
 
-**PyMuPDF licence.** PyMuPDF is licensed under AGPL-3.0 or a commercial Artifex licence. Only tests and QA scripts import it; nothing under `src/graph_builder` does. Build any environment you deploy or distribute without it (`pip install ".[ocr]"`), and see [dependencies](docs/components/dependencies.md) before shipping anything that includes it. Model files and their digests are in [model provenance](docs/components/model-provenance.md).
+**PyMuPDF licence.** PyMuPDF is available under AGPL-3.0 or a commercial Artifex licence. The default K1 profile uses it for source-backed table rules. See [dependencies](docs/components/dependencies.md) for runtime requirements and distribution choices. Model files and their digests are in [model provenance](docs/components/model-provenance.md).
 
 Three tests in `tests/test_graphrag.py` skip because they need the separate `requirements-graphrag.lock.txt` environment (Track B). Tests that need the public PDFs in `data/raw`, cached Docling conversions or earlier K1 releases skip when those files are absent.
 
-**Ingest documents** with the current Docling-based pipeline (any mix of PDFs, scans and Office files; OCR needs the extra and a one-time model download). VLM parsing replaces OCR for new work once M1 selects a model:
+**Ingest documents** with the current Docling-based pipeline (any mix of PDFs, scans and Office files; OCR needs the extra and a one-time asset download):
 
 ```powershell
 python -m pip install -e ".[ocr]"; python -m pip install --no-deps vietocr==0.3.13
@@ -100,7 +101,7 @@ docs/
   DATA_SOURCES.md       the public proxy data
   requirements/         VPI's requirement documents (digest; originals kept out of Git) and supervisor meeting digests (7 and 28 October)
   components/           guides to implemented subsystems
-  experiments/          one record per experiment (E1–E13) and the register
+  experiments/          experiment records and register
   reports/              Vietnamese progress report of 27 October (historical snapshot)
   diagrams/             SVG exports of the Mermaid diagrams
 schemas/          JSON Schemas for every published record type (corpus_* for the document pipeline; evidence, claim, entity for application records)

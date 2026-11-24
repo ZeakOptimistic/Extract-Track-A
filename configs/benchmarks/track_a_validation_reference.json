@@ -1,0 +1,4886 @@
+{
+  "method": "Poppler pdftotext layout and word boxes as independent source reading. Public chart labels and FORGE casing/time cells transcribed from source. NWIS clean counterparts checked against source raster previews. Null and vendor sentinel -999.99 fields are unscored.",
+  "normalization": "Whitespace, case, separators in numeric thousands, typographic dashes, and numeric equivalence only for typed scalars. Fields must keep a label on the correct page. Table cell values stay in their physical column and keyed row.",
+  "probes": [
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "RPT DATE",
+      "value": "1/6/21"
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "RPT NUM",
+      "value": "3"
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "RIG",
+      "value": "Frontier Rig 16"
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "WELL NAME",
+      "value": "FORGE 16A [78]-32"
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "JOB",
+      "value": "DFIT"
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "CONTRACTOR",
+      "value": "Frontier Drilling"
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Present Ops",
+      "value": "TRIP IN HOLE TO CLEAN AND CONDITION FOR DFIT TEST"
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Obtain string weights 155,000 up, 135,000 down, 133,000 rotating"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-19 ST2"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "141"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "1992-09-15 01:00"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "84"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "M/U FLOWHEAD WITH COFLEXIP HOSES"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "POOH WITH TEST TUBING AND BHA"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-19 ST2"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "158"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "1992-09-15 01:00"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "84"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "4641"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "BULLHEADED WELL WITH 38,1 M3 BRINE AND 31,2 M3"
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "FINISH DISPLACING ANULUS TO MUD."
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-11 A"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "7"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2013-03-07 17:30"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Dist Drilled (m)",
+      "value": "13"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "3762"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Drilled 8 1/2\" hole from 3749 m MD to"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Wait prior to take new pressure points."
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-11 A"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "10"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2013-03-07 17:30"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Dist Drilled (m)",
+      "value": "0"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "3762"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Pumped / pulled OOH with 8 1/2\" BHA and"
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Mix and pump P&A plug."
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-11 T2"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "23"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2013-03-07 17:30"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "454"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Repaired fast-line sheave in derrick. Performed general maintenance. Picked"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Drill and orient 26\" hole."
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-11 T2"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "69"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2013-03-07 17:30"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "2569"
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Circulated out spacer and excess cement at 2569m MD."
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Run in hole with 8 1/2\" bottom hole assembly"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-15 A"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "9"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "StatoilHydro"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2008-12-11 15:00"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "2591"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Ran 13 3/8\" casing from 1912 m to 2441"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Run and land 13 3/8\" casing. Pick up cmt"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-15 A"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "12"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "StatoilHydro"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2008-12-11 15:00"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "2591"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "LD 17 1/2\" BHA. MU and RIH with 12"
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "RIH with 12 1/4\" clean out assembly from 274"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-19 BT2"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "15"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "1997-12-05 00:00"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "85"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Dist Drilled (m)",
+      "value": "39"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "3360"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "ATTEMPTED TO DRILL IN ORIENTED MODE, NO GO DUE"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "CONTINUE RIH, SLIP/ CUT DRILL LINE AND REPAIR DRAW"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-19 BT2"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "30"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "1997-12-05 00:00"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "85"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "4037"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "CONTINUED REAMING FROM 3960M TO TD AT 4031M. DRILLED"
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "M/U CORE BARREL AND RIH. CUT CORE FROM 4037M."
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-12"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "126"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "StatoilHydro"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2007-03-15 00:00"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "3520"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "RIH with 7\" tubing from 2528 m to 3023"
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "MU communication collar and TH running tool. RIH and"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-F-12"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "39"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2007-03-15 00:00"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "91"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Dist Drilled (m)",
+      "value": "62"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "1431"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Performed XLOT to 1,70 EMW. Drilled 17 1/2\" hole"
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Continue drilling 17 1/2\" hole section."
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-19 S"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "30"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "1992-09-18 00:00"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "84"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Dist Drilled (m)",
+      "value": "147"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "1637"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "RIH WITH 12 1/4\" BIT TO 1441 M."
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Wellbore",
+      "value": "15/9-19 S"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Status",
+      "value": "normal"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Report number",
+      "value": "12"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Operator",
+      "value": "Statoil"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "1992-09-18 00:00"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Water depth MSL (m)",
+      "value": "84"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Dist Drilled (m)",
+      "value": "4"
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "kind": "field",
+      "label": "Depth mMd",
+      "value": "547"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W001"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Name",
+      "value": "SYN-Assam-Duliajan-001"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Field",
+      "value": "SYN-Assam-Duliajan"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Latitude",
+      "value": "27.371219"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Longitude",
+      "value": "95.331752"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Total Depth",
+      "value": "3,470 m"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Primary Formation",
+      "value": "Sandstone"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Status",
+      "value": "Completed"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2020-12-09"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Event Count",
+      "value": "4"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Total NPT",
+      "value": "55.4 hours"
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "phrase",
+      "label": "",
+      "value": "Well W001 (SYN-Assam-Duliajan-001) was drilled to test the deeper"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W002"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2016-02-12"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "0 m"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "480 m"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "480 m"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "9.34 ppg"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "ROP",
+      "value": "33.1 m/hr"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "RPM",
+      "value": "142"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "WOB",
+      "value": "6.8 klbf"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "NPT",
+      "value": "2.2 hours"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W002"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2016-02-18"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "2115 m"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "2410 m"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "295 m"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "12.08 ppg"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "ROP",
+      "value": "16.1 m/hr"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "RPM",
+      "value": "117"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "WOB",
+      "value": "23.2 klbf"
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "NPT",
+      "value": "0.0 hours"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W003"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2018-12-10"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "0 m"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "565 m"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "565 m"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "9.42 ppg"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "ROP",
+      "value": "32.7 m/hr"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "RPM",
+      "value": "140"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "WOB",
+      "value": "7.1 klbf"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "NPT",
+      "value": "0.0 hours"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W003"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2018-12-16"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "2260 m"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "2500 m"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "240 m"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "12.33 ppg"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "ROP",
+      "value": "16.3 m/hr"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "RPM",
+      "value": "114"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "WOB",
+      "value": "24.0 klbf"
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "NPT",
+      "value": "0.0 hours"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W004"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Name",
+      "value": "SYN-Assam-Duliajan-004"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Field",
+      "value": "SYN-Assam-Duliajan"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Latitude",
+      "value": "27.412500"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Longitude",
+      "value": "95.349472"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Total Depth",
+      "value": "3,590 m"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Primary Formation",
+      "value": "Sandstone"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Status",
+      "value": "Drilled"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2008-10-28"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Event Count",
+      "value": "2"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Total NPT",
+      "value": "14.2 hours"
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "phrase",
+      "label": "",
+      "value": "Well W004 (SYN-Assam-Duliajan-004) was drilled to drill a development"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W006"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2019-09-11"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "0 m"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "490 m"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "490 m"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "9.35 ppg"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "ROP",
+      "value": "32.6 m/hr"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "RPM",
+      "value": "143"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "WOB",
+      "value": "7.0 klbf"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "field",
+      "label": "NPT",
+      "value": "0.0 hours"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W006"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2019-09-17"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "2250 m"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "2515 m"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "265 m"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "12.27 ppg"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "ROP",
+      "value": "16.3 m/hr"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "RPM",
+      "value": "115"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "WOB",
+      "value": "24.2 klbf"
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 5,
+      "kind": "field",
+      "label": "NPT",
+      "value": "0.0 hours"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W007"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Name",
+      "value": "SYN-Assam-Duliajan-007"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Field",
+      "value": "SYN-Assam-Duliajan"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Latitude",
+      "value": "27.431355"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Longitude",
+      "value": "95.294900"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Total Depth",
+      "value": "3,400 m"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Primary Formation",
+      "value": "Sandstone"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Status",
+      "value": "Completed"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2021-06-19"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Event Count",
+      "value": "3"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "kind": "field",
+      "label": "Total NPT",
+      "value": "74.0 hours"
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "phrase",
+      "label": "",
+      "value": "Well W007 (SYN-Assam-Duliajan-007) was drilled to provide an additional"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W009"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Name",
+      "value": "SYN-Assam-Duliajan-009"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Field",
+      "value": "SYN-Assam-Duliajan"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Latitude",
+      "value": "27.396274"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Longitude",
+      "value": "95.396813"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Total Depth",
+      "value": "3,180 m"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Primary Formation",
+      "value": "Sandstone"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Well Status",
+      "value": "Completed"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Spud Date",
+      "value": "2009-12-17"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Event Count",
+      "value": "6"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "kind": "field",
+      "label": "Total NPT",
+      "value": "57.0 hours"
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 2,
+      "kind": "phrase",
+      "label": "",
+      "value": "Well W009 (SYN-Assam-Duliajan-009) was drilled to drill a development"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W010"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2017-02-26"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "0 m"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "550 m"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "550 m"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "9.44 ppg"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "ROP",
+      "value": "31.6 m/hr"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "RPM",
+      "value": "145"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "WOB",
+      "value": "7.0 klbf"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 2,
+      "kind": "field",
+      "label": "NPT",
+      "value": "0.0 hours"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Well ID",
+      "value": "W010"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Report Date",
+      "value": "2017-03-04"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Start Depth",
+      "value": "2170 m"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "End Depth",
+      "value": "2400 m"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Drilled Interval",
+      "value": "230 m"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "Mud Weight",
+      "value": "12.10 ppg"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "ROP",
+      "value": "18.1 m/hr"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "RPM",
+      "value": "111"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "WOB",
+      "value": "23.4 klbf"
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 5,
+      "kind": "field",
+      "label": "NPT",
+      "value": "6.5 hours"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Gamma Ray"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Spontaneous Potential"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Resistivity, Shallow"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Resistivity, Medium"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Resistivity, Deep"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Neutron Porosity"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Bulk Density"
+    },
+    {
+      "doc_id": "wireline-chart",
+      "family": "Published raster chart",
+      "page": 1,
+      "kind": "phrase",
+      "label": "",
+      "value": "Hydrocarbon"
+    }
+  ],
+  "tables": [
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "name": "completion-time-log",
+      "positions": [
+        [
+          0,
+          "From"
+        ],
+        [
+          1,
+          "To"
+        ],
+        [
+          2,
+          "Hrs"
+        ]
+      ],
+      "rows": [
+        [
+          "6:00",
+          "8:30",
+          "2.5"
+        ],
+        [
+          "8:30",
+          "21:30",
+          "13.0"
+        ],
+        [
+          "21:30",
+          "2:30",
+          "5.0"
+        ],
+        [
+          "2:30",
+          "3:30",
+          "1.0"
+        ],
+        [
+          "3:30",
+          "5:00",
+          "1.5"
+        ],
+        [
+          "5:00",
+          "6:00",
+          "1.0"
+        ]
+      ],
+      "bbox": [
+        0,
+        156.13568,
+        610,
+        328.09704
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "forge-003",
+      "family": "Utah FORGE DDR",
+      "page": 1,
+      "name": "casing",
+      "positions": [
+        [
+          0,
+          "Type"
+        ],
+        [
+          1,
+          "OD"
+        ],
+        [
+          2,
+          "ID"
+        ],
+        [
+          3,
+          "Weight"
+        ],
+        [
+          4,
+          "Grade"
+        ],
+        [
+          5,
+          "Bottom MD"
+        ],
+        [
+          6,
+          "Connection"
+        ]
+      ],
+      "rows": [
+        [
+          "Conductor",
+          "20",
+          "19.000",
+          "54",
+          "A53B",
+          "130",
+          "Welded"
+        ],
+        [
+          "Surface",
+          "13.375",
+          "12.410",
+          "68",
+          "L-80",
+          "1,629",
+          "BTC"
+        ],
+        [
+          "Intermediate",
+          "9.625",
+          "8.750",
+          "40",
+          "HCL-80",
+          "5,110",
+          "BTC"
+        ],
+        [
+          "Production",
+          "7",
+          "5.920",
+          "38",
+          "T-95",
+          "10,787",
+          "JFELION"
+        ]
+      ],
+      "bbox": [
+        0,
+        511.73568,
+        610,
+        583.45704
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-06",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "02:00",
+          "4338"
+        ],
+        [
+          "02:00",
+          "03:30",
+          "4338"
+        ],
+        [
+          "03:30",
+          "06:00",
+          "4338"
+        ],
+        [
+          "06:00",
+          "07:00",
+          "4338"
+        ],
+        [
+          "07:00",
+          "11:00",
+          "4338"
+        ],
+        [
+          "11:00",
+          "16:00",
+          "4338"
+        ],
+        [
+          "16:00",
+          "17:00",
+          "4338"
+        ],
+        [
+          "17:00",
+          "18:00",
+          "4338"
+        ],
+        [
+          "18:00",
+          "21:00",
+          "4338"
+        ],
+        [
+          "21:00",
+          "23:00",
+          "4230"
+        ],
+        [
+          "23:00",
+          "00:00",
+          "4170"
+        ]
+      ],
+      "bbox": [
+        0,
+        418.168629,
+        610,
+        661.013489
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-19-st2-1993-04-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "06:00",
+          "0"
+        ],
+        [
+          "06:00",
+          "22:30",
+          "0"
+        ],
+        [
+          "22:30",
+          "23:30",
+          "0"
+        ],
+        [
+          "23:30",
+          "00:00",
+          "0"
+        ]
+      ],
+      "bbox": [
+        0,
+        410.926205,
+        610,
+        490.816519
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "01:00",
+          "3762"
+        ],
+        [
+          "01:00",
+          "06:00",
+          "3731"
+        ],
+        [
+          "06:00",
+          "07:00",
+          "3707"
+        ],
+        [
+          "07:00",
+          "07:30",
+          "3707"
+        ],
+        [
+          "07:30",
+          "17:30",
+          "3628"
+        ],
+        [
+          "17:30",
+          "21:00",
+          "3005"
+        ],
+        [
+          "21:00",
+          "00:00",
+          "2494"
+        ]
+      ],
+      "bbox": [
+        0,
+        370.187569,
+        610,
+        551.019171
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-11-a-2013-05-25",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "01:30",
+          "2563"
+        ],
+        [
+          "01:30",
+          "02:00",
+          "2563"
+        ],
+        [
+          "02:00",
+          "07:00",
+          "182"
+        ],
+        [
+          "07:00",
+          "07:30",
+          "182"
+        ],
+        [
+          "07:30",
+          "10:00",
+          "45"
+        ],
+        [
+          "10:00",
+          "10:30",
+          "45"
+        ],
+        [
+          "10:30",
+          "11:30",
+          "45"
+        ],
+        [
+          "11:30",
+          "13:30",
+          "0"
+        ],
+        [
+          "13:30",
+          "14:30",
+          "0"
+        ],
+        [
+          "14:30",
+          "19:30",
+          "2255"
+        ],
+        [
+          "19:30",
+          "22:30",
+          "3200"
+        ],
+        [
+          "22:30",
+          "23:00",
+          "3762"
+        ],
+        [
+          "23:00",
+          "23:30",
+          "3754"
+        ],
+        [
+          "23:30",
+          "00:00",
+          "3754"
+        ]
+      ],
+      "bbox": [
+        0,
+        377.429993,
+        610,
+        585.873338
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-03-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "07:00",
+          "0"
+        ],
+        [
+          "07:00",
+          "07:30",
+          "0"
+        ],
+        [
+          "07:30",
+          "12:00",
+          "0"
+        ],
+        [
+          "12:00",
+          "12:30",
+          "0"
+        ],
+        [
+          "12:30",
+          "13:15",
+          "10"
+        ],
+        [
+          "13:15",
+          "14:15",
+          "10"
+        ],
+        [
+          "14:15",
+          "22:00",
+          "140"
+        ],
+        [
+          "22:00",
+          "22:30",
+          "152"
+        ],
+        [
+          "22:30",
+          "23:00",
+          "152"
+        ],
+        [
+          "23:00",
+          "00:00",
+          "230"
+        ]
+      ],
+      "bbox": [
+        0,
+        341.217872,
+        610,
+        528.839247
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-11-t2-2013-05-14",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "04:00",
+          "2569"
+        ],
+        [
+          "04:00",
+          "08:00",
+          "291"
+        ],
+        [
+          "08:00",
+          "08:30",
+          "291"
+        ],
+        [
+          "08:30",
+          "09:00",
+          "291"
+        ],
+        [
+          "09:00",
+          "10:30",
+          "0"
+        ],
+        [
+          "10:30",
+          "11:30",
+          "0"
+        ],
+        [
+          "11:30",
+          "12:00",
+          "0"
+        ],
+        [
+          "12:00",
+          "17:30",
+          "196"
+        ],
+        [
+          "17:30",
+          "19:00",
+          "993"
+        ],
+        [
+          "19:00",
+          "19:30",
+          "993"
+        ],
+        [
+          "19:30",
+          "20:30",
+          "993"
+        ],
+        [
+          "20:30",
+          "21:00",
+          "993"
+        ],
+        [
+          "21:00",
+          "21:30",
+          "1354"
+        ],
+        [
+          "21:30",
+          "21:45",
+          "1354"
+        ],
+        [
+          "21:45",
+          "22:30",
+          "1609"
+        ],
+        [
+          "22:30",
+          "00:00",
+          "1609"
+        ]
+      ],
+      "bbox": [
+        0,
+        384.672417,
+        610,
+        579.988868
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "06:00",
+          "1912"
+        ],
+        [
+          "06:00",
+          "15:15",
+          "2441"
+        ],
+        [
+          "15:15",
+          "16:30",
+          "2441"
+        ],
+        [
+          "16:30",
+          "17:00",
+          "2441"
+        ],
+        [
+          "17:00",
+          "19:00",
+          "2441"
+        ],
+        [
+          "19:00",
+          "20:45",
+          "2478"
+        ],
+        [
+          "20:45",
+          "21:00",
+          "2478"
+        ],
+        [
+          "21:00",
+          "00:00",
+          "2572"
+        ]
+      ],
+      "bbox": [
+        0,
+        348.460296,
+        610,
+        496.248338
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-15-a-2008-12-23",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "05:45",
+          "0"
+        ],
+        [
+          "05:45",
+          "06:00",
+          "0"
+        ],
+        [
+          "06:00",
+          "07:00",
+          "139"
+        ],
+        [
+          "07:00",
+          "09:15",
+          "139"
+        ],
+        [
+          "09:15",
+          "12:00",
+          "139"
+        ],
+        [
+          "12:00",
+          "14:00",
+          "0"
+        ],
+        [
+          "14:00",
+          "14:45",
+          "0"
+        ],
+        [
+          "14:45",
+          "16:00",
+          "0"
+        ],
+        [
+          "16:00",
+          "17:00",
+          "0"
+        ],
+        [
+          "17:00",
+          "19:00",
+          "0"
+        ],
+        [
+          "19:00",
+          "21:15",
+          "75"
+        ],
+        [
+          "21:15",
+          "22:00",
+          "274"
+        ],
+        [
+          "22:00",
+          "23:45",
+          "274"
+        ],
+        [
+          "23:45",
+          "00:00",
+          "274"
+        ]
+      ],
+      "bbox": [
+        0,
+        341.217872,
+        610,
+        549.661216
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-19-bt2-1997-12-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "03:30",
+          "3348"
+        ],
+        [
+          "03:30",
+          "06:00",
+          "3348"
+        ],
+        [
+          "06:00",
+          "06:30",
+          "3348"
+        ],
+        [
+          "06:30",
+          "10:00",
+          "3360"
+        ],
+        [
+          "10:00",
+          "11:30",
+          "3198"
+        ],
+        [
+          "11:30",
+          "13:00",
+          "3198"
+        ],
+        [
+          "13:00",
+          "14:00",
+          "2900"
+        ],
+        [
+          "14:00",
+          "14:30",
+          "2900"
+        ],
+        [
+          "14:30",
+          "16:00",
+          "2095"
+        ],
+        [
+          "16:00",
+          "17:30",
+          "2095"
+        ],
+        [
+          "17:30",
+          "23:00",
+          "0"
+        ],
+        [
+          "23:00",
+          "00:00",
+          "0"
+        ]
+      ],
+      "bbox": [
+        0,
+        362.945144,
+        610,
+        549.208565
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-19-bt2-1998-01-04",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "06:00",
+          "3960"
+        ],
+        [
+          "06:00",
+          "14:30",
+          "4031"
+        ],
+        [
+          "14:30",
+          "17:00",
+          "4037"
+        ],
+        [
+          "17:00",
+          "19:00",
+          "4037"
+        ],
+        [
+          "19:00",
+          "00:00",
+          "2373"
+        ]
+      ],
+      "bbox": [
+        0,
+        355.70272,
+        610,
+        461.394171
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-12-2008-01-29",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "02:00",
+          "2528"
+        ],
+        [
+          "02:00",
+          "03:00",
+          "2528"
+        ],
+        [
+          "03:00",
+          "03:30",
+          "2528"
+        ],
+        [
+          "03:30",
+          "04:15",
+          "2528"
+        ],
+        [
+          "04:15",
+          "06:00",
+          "2528"
+        ],
+        [
+          "06:00",
+          "19:15",
+          "3023"
+        ],
+        [
+          "19:15",
+          "20:30",
+          "3030.6"
+        ],
+        [
+          "20:30",
+          "21:45",
+          "3030.6"
+        ],
+        [
+          "21:45",
+          "00:00",
+          "3000.5"
+        ]
+      ],
+      "bbox": [
+        0,
+        362.945144,
+        610,
+        548.303262
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-f-12-2007-07-22",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "01:00",
+          "1358"
+        ],
+        [
+          "01:00",
+          "04:15",
+          "1367.5"
+        ],
+        [
+          "04:15",
+          "05:45",
+          "1367.5"
+        ],
+        [
+          "05:45",
+          "06:00",
+          "1367.5"
+        ],
+        [
+          "06:00",
+          "07:00",
+          "1372"
+        ],
+        [
+          "07:00",
+          "08:00",
+          "1372"
+        ],
+        [
+          "08:00",
+          "08:15",
+          "1355"
+        ],
+        [
+          "08:15",
+          "10:00",
+          "1355"
+        ],
+        [
+          "10:00",
+          "10:15",
+          "1355"
+        ],
+        [
+          "10:15",
+          "10:45",
+          "1355"
+        ],
+        [
+          "10:45",
+          "11:00",
+          "1355"
+        ],
+        [
+          "11:00",
+          "12:00",
+          "1355"
+        ],
+        [
+          "12:00",
+          "13:30",
+          "1355"
+        ],
+        [
+          "13:30",
+          "15:45",
+          "1355"
+        ],
+        [
+          "15:45",
+          "17:15",
+          "1355"
+        ],
+        [
+          "17:15",
+          "18:45",
+          "1355"
+        ],
+        [
+          "18:45",
+          "22:30",
+          "1422"
+        ],
+        [
+          "22:30",
+          "23:00",
+          "1422"
+        ],
+        [
+          "23:00",
+          "23:30",
+          "1422"
+        ],
+        [
+          "23:30",
+          "00:00",
+          "1431"
+        ]
+      ],
+      "bbox": [
+        0,
+        348.460296,
+        610,
+        693.604398
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-19-s-1992-11-30",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "01:30",
+          "0"
+        ],
+        [
+          "01:30",
+          "03:30",
+          "0"
+        ],
+        [
+          "03:30",
+          "04:00",
+          "0"
+        ],
+        [
+          "04:00",
+          "06:00",
+          "0"
+        ],
+        [
+          "06:00",
+          "10:00",
+          "1441"
+        ],
+        [
+          "10:00",
+          "10:30",
+          "1441"
+        ],
+        [
+          "10:30",
+          "13:00",
+          "1490"
+        ],
+        [
+          "13:00",
+          "14:00",
+          "1495"
+        ],
+        [
+          "14:00",
+          "15:30",
+          "1495"
+        ],
+        [
+          "15:30",
+          "16:30",
+          "1482"
+        ],
+        [
+          "16:30",
+          "19:00",
+          "1551"
+        ],
+        [
+          "19:00",
+          "19:30",
+          "0"
+        ],
+        [
+          "19:30",
+          "00:00",
+          "1637"
+        ]
+      ],
+      "bbox": [
+        0,
+        396.441357,
+        610,
+        555.545686
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "15-9-19-s-1992-09-20",
+      "family": "Volve DDR",
+      "page": 1,
+      "name": "operations",
+      "positions": [
+        [
+          0,
+          "Start time"
+        ],
+        [
+          1,
+          "End time"
+        ],
+        [
+          2,
+          "End Depth mMD"
+        ]
+      ],
+      "rows": [
+        [
+          "00:00",
+          "01:00",
+          "547"
+        ],
+        [
+          "01:00",
+          "03:00",
+          "80"
+        ],
+        [
+          "03:00",
+          "04:00",
+          "0"
+        ],
+        [
+          "04:00",
+          "06:00",
+          "0"
+        ],
+        [
+          "06:00",
+          "10:30",
+          "0"
+        ],
+        [
+          "10:30",
+          "12:00",
+          "92"
+        ],
+        [
+          "12:00",
+          "15:30",
+          "128"
+        ],
+        [
+          "15:30",
+          "16:00",
+          "0"
+        ],
+        [
+          "16:00",
+          "17:30",
+          "147"
+        ],
+        [
+          "17:30",
+          "19:00",
+          "0"
+        ],
+        [
+          "19:00",
+          "20:30",
+          "170"
+        ],
+        [
+          "20:30",
+          "21:00",
+          "170"
+        ],
+        [
+          "21:00",
+          "22:00",
+          "170"
+        ],
+        [
+          "22:00",
+          "23:00",
+          "170"
+        ],
+        [
+          "23:00",
+          "00:00",
+          "0"
+        ]
+      ],
+      "bbox": [
+        0,
+        345.744387,
+        610,
+        532.91311
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 3,
+      "name": "formation-depth",
+      "positions": [
+        [
+          0,
+          "Unit"
+        ],
+        [
+          1,
+          "Formation"
+        ],
+        [
+          2,
+          "Top Depth (m)"
+        ],
+        [
+          3,
+          "Bottom Depth (m)"
+        ],
+        [
+          4,
+          "Thickness (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "1",
+          "Claystone",
+          "0",
+          "791",
+          "791"
+        ],
+        [
+          "2",
+          "Shale",
+          "791",
+          "1,906",
+          "1,115"
+        ],
+        [
+          "3",
+          "Sandstone",
+          "1,906",
+          "3,090",
+          "1,184"
+        ],
+        [
+          "4",
+          "Limestone",
+          "3,090",
+          "3,470",
+          "380"
+        ]
+      ],
+      "bbox": [
+        0,
+        96.636714,
+        610,
+        232.29296
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 3,
+      "name": "drilling-parameters",
+      "positions": [
+        [
+          0,
+          "Formation"
+        ],
+        [
+          1,
+          "Interval (m)"
+        ],
+        [
+          2,
+          "Mud Wt (ppg)"
+        ],
+        [
+          3,
+          "MW range"
+        ],
+        [
+          4,
+          "ROP (m/hr)"
+        ],
+        [
+          5,
+          "RPM"
+        ],
+        [
+          6,
+          "WOB (klbf)"
+        ]
+      ],
+      "rows": [
+        [
+          "Claystone",
+          "0–791",
+          "9.54",
+          "9.0–10.1",
+          "32.1",
+          "142",
+          "8.0"
+        ],
+        [
+          "Shale",
+          "791–1,906",
+          "11.01",
+          "10.3–11.8",
+          "16.6",
+          "126",
+          "17.1"
+        ],
+        [
+          "Sandstone",
+          "1,906–3,090",
+          "12.44",
+          "11.6–13.3",
+          "15.8",
+          "113",
+          "25.0"
+        ],
+        [
+          "Limestone",
+          "3,090–3,470",
+          "13.89",
+          "13.6–14.2",
+          "7.3",
+          "92",
+          "34.9"
+        ]
+      ],
+      "bbox": [
+        0,
+        334.386704,
+        610,
+        443.042951
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w001-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 4,
+      "name": "events",
+      "positions": [
+        [
+          0,
+          "Event ID"
+        ],
+        [
+          1,
+          "Depth (m)"
+        ],
+        [
+          2,
+          "Formation"
+        ],
+        [
+          3,
+          "Event Type"
+        ],
+        [
+          4,
+          "Severity"
+        ],
+        [
+          5,
+          "Duration (hr)"
+        ]
+      ],
+      "rows": [
+        [
+          "E0019",
+          "92",
+          "Claystone",
+          "Cementing Issue",
+          "High",
+          "18.3"
+        ],
+        [
+          "E0018",
+          "1,370",
+          "Shale",
+          "Stuck Pipe",
+          "Medium",
+          "12.8"
+        ],
+        [
+          "E0001",
+          "2,790",
+          "Sandstone",
+          "Mud Loss",
+          "High",
+          "11.9"
+        ],
+        [
+          "E0020",
+          "3,061",
+          "Sandstone",
+          "Stuck Pipe",
+          "Medium",
+          "12.4"
+        ]
+      ],
+      "bbox": [
+        0,
+        83.136714,
+        610,
+        191.792962
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w002-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "name": "depth-progression",
+      "positions": [
+        [
+          0,
+          "Day"
+        ],
+        [
+          1,
+          "Date"
+        ],
+        [
+          2,
+          "From (m)"
+        ],
+        [
+          3,
+          "To (m)"
+        ],
+        [
+          4,
+          "Drilled (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "01",
+          "12-Feb-2016",
+          "0",
+          "480",
+          "480"
+        ],
+        [
+          "02",
+          "13-Feb-2016",
+          "480",
+          "955",
+          "475"
+        ],
+        [
+          "03",
+          "14-Feb-2016",
+          "955",
+          "1,235",
+          "280"
+        ],
+        [
+          "04",
+          "15-Feb-2016",
+          "1,235",
+          "1,485",
+          "250"
+        ],
+        [
+          "05",
+          "16-Feb-2016",
+          "1,485",
+          "1,795",
+          "310"
+        ],
+        [
+          "06",
+          "17-Feb-2016",
+          "1,795",
+          "2,115",
+          "320"
+        ],
+        [
+          "07",
+          "18-Feb-2016",
+          "2,115",
+          "2,410",
+          "295"
+        ],
+        [
+          "08",
+          "19-Feb-2016",
+          "2,410",
+          "2,685",
+          "275"
+        ],
+        [
+          "09",
+          "20-Feb-2016",
+          "2,685",
+          "2,825",
+          "140"
+        ],
+        [
+          "10",
+          "21-Feb-2016",
+          "2,825",
+          "3,065",
+          "240"
+        ],
+        [
+          "11",
+          "22-Feb-2016",
+          "3,065",
+          "3,290",
+          "225"
+        ],
+        [
+          "12",
+          "23-Feb-2016",
+          "3,290",
+          "3,450",
+          "160"
+        ]
+      ],
+      "bbox": [
+        0,
+        377.886702,
+        610,
+        785.042937
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w003-ddr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "name": "depth-progression",
+      "positions": [
+        [
+          0,
+          "Day"
+        ],
+        [
+          1,
+          "Date"
+        ],
+        [
+          2,
+          "From (m)"
+        ],
+        [
+          3,
+          "To (m)"
+        ],
+        [
+          4,
+          "Drilled (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "01",
+          "10-Dec-2018",
+          "0",
+          "565",
+          "565"
+        ],
+        [
+          "02",
+          "11-Dec-2018",
+          "565",
+          "1,005",
+          "440"
+        ],
+        [
+          "03",
+          "12-Dec-2018",
+          "1,005",
+          "1,250",
+          "245"
+        ],
+        [
+          "04",
+          "13-Dec-2018",
+          "1,250",
+          "1,560",
+          "310"
+        ],
+        [
+          "05",
+          "14-Dec-2018",
+          "1,560",
+          "1,925",
+          "365"
+        ],
+        [
+          "06",
+          "15-Dec-2018",
+          "1,925",
+          "2,260",
+          "335"
+        ],
+        [
+          "07",
+          "16-Dec-2018",
+          "2,260",
+          "2,500",
+          "240"
+        ],
+        [
+          "08",
+          "17-Dec-2018",
+          "2,500",
+          "2,785",
+          "285"
+        ],
+        [
+          "09",
+          "18-Dec-2018",
+          "2,785",
+          "2,960",
+          "175"
+        ],
+        [
+          "10",
+          "19-Dec-2018",
+          "2,960",
+          "3,180",
+          "220"
+        ],
+        [
+          "11",
+          "20-Dec-2018",
+          "3,180",
+          "3,415",
+          "235"
+        ],
+        [
+          "12",
+          "21-Dec-2018",
+          "3,415",
+          "3,640",
+          "225"
+        ],
+        [
+          "13",
+          "22-Dec-2018",
+          "3,640",
+          "3,850",
+          "210"
+        ]
+      ],
+      "bbox": [
+        0,
+        377.886702,
+        610,
+        817.292935
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 3,
+      "name": "formation-depth",
+      "positions": [
+        [
+          0,
+          "Unit"
+        ],
+        [
+          1,
+          "Formation"
+        ],
+        [
+          2,
+          "Top Depth (m)"
+        ],
+        [
+          3,
+          "Bottom Depth (m)"
+        ],
+        [
+          4,
+          "Thickness (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "1",
+          "Claystone",
+          "0",
+          "822",
+          "822"
+        ],
+        [
+          "2",
+          "Shale",
+          "822",
+          "2,009",
+          "1,187"
+        ],
+        [
+          "3",
+          "Sandstone",
+          "2,009",
+          "3,180",
+          "1,171"
+        ],
+        [
+          "4",
+          "Limestone",
+          "3,180",
+          "3,590",
+          "410"
+        ]
+      ],
+      "bbox": [
+        0,
+        96.636714,
+        610,
+        232.29296
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 3,
+      "name": "drilling-parameters",
+      "positions": [
+        [
+          0,
+          "Formation"
+        ],
+        [
+          1,
+          "Interval (m)"
+        ],
+        [
+          2,
+          "Mud Wt (ppg)"
+        ],
+        [
+          3,
+          "MW range"
+        ],
+        [
+          4,
+          "ROP (m/hr)"
+        ],
+        [
+          5,
+          "RPM"
+        ],
+        [
+          6,
+          "WOB (klbf)"
+        ]
+      ],
+      "rows": [
+        [
+          "Claystone",
+          "0–822",
+          "9.59",
+          "9.0–10.1",
+          "31.7",
+          "140",
+          "8.3"
+        ],
+        [
+          "Shale",
+          "822–2,009",
+          "11.11",
+          "10.3–12.0",
+          "16.2",
+          "124",
+          "17.9"
+        ],
+        [
+          "Sandstone",
+          "2,009–3,180",
+          "12.60",
+          "11.7–13.4",
+          "15.6",
+          "112",
+          "25.7"
+        ],
+        [
+          "Limestone",
+          "3,180–3,590",
+          "14.02",
+          "13.7–14.3",
+          "7.4",
+          "90",
+          "35.6"
+        ]
+      ],
+      "bbox": [
+        0,
+        320.886705,
+        610,
+        429.542952
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w004-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 4,
+      "name": "events",
+      "positions": [
+        [
+          0,
+          "Event ID"
+        ],
+        [
+          1,
+          "Depth (m)"
+        ],
+        [
+          2,
+          "Formation"
+        ],
+        [
+          3,
+          "Event Type"
+        ],
+        [
+          4,
+          "Severity"
+        ],
+        [
+          5,
+          "Duration (hr)"
+        ]
+      ],
+      "rows": [
+        [
+          "E0004",
+          "2,865",
+          "Sandstone",
+          "Mud Loss",
+          "Medium",
+          "6.8"
+        ],
+        [
+          "E0034",
+          "3,237",
+          "Limestone",
+          "Mud Loss",
+          "Medium",
+          "7.4"
+        ]
+      ],
+      "bbox": [
+        0,
+        83.136714,
+        610,
+        154.292963
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w006-ddr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 1,
+      "name": "depth-progression",
+      "positions": [
+        [
+          0,
+          "Day"
+        ],
+        [
+          1,
+          "Date"
+        ],
+        [
+          2,
+          "From (m)"
+        ],
+        [
+          3,
+          "To (m)"
+        ],
+        [
+          4,
+          "Drilled (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "01",
+          "11-Sep-2019",
+          "0",
+          "490",
+          "490"
+        ],
+        [
+          "02",
+          "12-Sep-2019",
+          "490",
+          "920",
+          "430"
+        ],
+        [
+          "03",
+          "13-Sep-2019",
+          "920",
+          "1,300",
+          "380"
+        ],
+        [
+          "04",
+          "14-Sep-2019",
+          "1,300",
+          "1,645",
+          "345"
+        ],
+        [
+          "05",
+          "15-Sep-2019",
+          "1,645",
+          "1,960",
+          "315"
+        ],
+        [
+          "06",
+          "16-Sep-2019",
+          "1,960",
+          "2,250",
+          "290"
+        ],
+        [
+          "07",
+          "17-Sep-2019",
+          "2,250",
+          "2,515",
+          "265"
+        ],
+        [
+          "08",
+          "18-Sep-2019",
+          "2,515",
+          "2,760",
+          "245"
+        ],
+        [
+          "09",
+          "19-Sep-2019",
+          "2,760",
+          "2,990",
+          "230"
+        ],
+        [
+          "10",
+          "20-Sep-2019",
+          "2,990",
+          "3,205",
+          "215"
+        ],
+        [
+          "11",
+          "21-Sep-2019",
+          "3,205",
+          "3,410",
+          "205"
+        ],
+        [
+          "12",
+          "22-Sep-2019",
+          "3,410",
+          "3,605",
+          "195"
+        ],
+        [
+          "13",
+          "23-Sep-2019",
+          "3,605",
+          "3,790",
+          "185"
+        ],
+        [
+          "14",
+          "24-Sep-2019",
+          "3,790",
+          "3,960",
+          "170"
+        ]
+      ],
+      "bbox": [
+        0,
+        364.386703,
+        610,
+        660.542942
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 3,
+      "name": "formation-depth",
+      "positions": [
+        [
+          0,
+          "Unit"
+        ],
+        [
+          1,
+          "Formation"
+        ],
+        [
+          2,
+          "Top Depth (m)"
+        ],
+        [
+          3,
+          "Bottom Depth (m)"
+        ],
+        [
+          4,
+          "Thickness (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "1",
+          "Claystone",
+          "0",
+          "764",
+          "764"
+        ],
+        [
+          "2",
+          "Shale",
+          "764",
+          "1,841",
+          "1,077"
+        ],
+        [
+          "3",
+          "Sandstone",
+          "1,841",
+          "3,025",
+          "1,184"
+        ],
+        [
+          "4",
+          "Limestone",
+          "3,025",
+          "3,400",
+          "375"
+        ]
+      ],
+      "bbox": [
+        0,
+        96.636714,
+        610,
+        245.792959
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 3,
+      "name": "drilling-parameters",
+      "positions": [
+        [
+          0,
+          "Formation"
+        ],
+        [
+          1,
+          "Interval (m)"
+        ],
+        [
+          2,
+          "Mud Wt (ppg)"
+        ],
+        [
+          3,
+          "MW range"
+        ],
+        [
+          4,
+          "ROP (m/hr)"
+        ],
+        [
+          5,
+          "RPM"
+        ],
+        [
+          6,
+          "WOB (klbf)"
+        ]
+      ],
+      "rows": [
+        [
+          "Claystone",
+          "0–764",
+          "9.55",
+          "9.1–10.1",
+          "32.5",
+          "142",
+          "7.8"
+        ],
+        [
+          "Shale",
+          "764–1,841",
+          "10.95",
+          "10.2–11.7",
+          "16.3",
+          "127",
+          "16.9"
+        ],
+        [
+          "Sandstone",
+          "1,841–3,025",
+          "12.36",
+          "11.5–13.3",
+          "15.9",
+          "113",
+          "24.7"
+        ],
+        [
+          "Limestone",
+          "3,025–3,400",
+          "13.79",
+          "13.3–14.1",
+          "8.2",
+          "94",
+          "34.0"
+        ]
+      ],
+      "bbox": [
+        0,
+        347.886703,
+        610,
+        456.54295
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w007-wcr",
+      "family": "NWIS synthetic native",
+      "page": 4,
+      "name": "events",
+      "positions": [
+        [
+          0,
+          "Event ID"
+        ],
+        [
+          1,
+          "Depth (m)"
+        ],
+        [
+          2,
+          "Formation"
+        ],
+        [
+          3,
+          "Event Type"
+        ],
+        [
+          4,
+          "Severity"
+        ],
+        [
+          5,
+          "Duration (hr)"
+        ]
+      ],
+      "rows": [
+        [
+          "E0040",
+          "2,317",
+          "Sandstone",
+          "Stuck Pipe",
+          "High",
+          "28.2"
+        ],
+        [
+          "E0041",
+          "2,823",
+          "Sandstone",
+          "Stuck Pipe",
+          "Medium",
+          "11.4"
+        ],
+        [
+          "E0042",
+          "2,852",
+          "Sandstone",
+          "Casing Issue",
+          "High",
+          "34.4"
+        ]
+      ],
+      "bbox": [
+        0,
+        83.136714,
+        610,
+        173.042962
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 3,
+      "name": "formation-depth",
+      "positions": [
+        [
+          0,
+          "Unit"
+        ],
+        [
+          1,
+          "Formation"
+        ],
+        [
+          2,
+          "Top Depth (m)"
+        ],
+        [
+          3,
+          "Bottom Depth (m)"
+        ],
+        [
+          4,
+          "Thickness (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "1",
+          "Claystone",
+          "0",
+          "743",
+          "743"
+        ],
+        [
+          "2",
+          "Shale",
+          "743",
+          "1,783",
+          "1,040"
+        ],
+        [
+          "3",
+          "Sandstone",
+          "1,783",
+          "2,817",
+          "1,034"
+        ],
+        [
+          "4",
+          "Limestone",
+          "2,817",
+          "3,180",
+          "363"
+        ]
+      ],
+      "bbox": [
+        0,
+        96.636714,
+        610,
+        245.792959
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 3,
+      "name": "drilling-parameters",
+      "positions": [
+        [
+          0,
+          "Formation"
+        ],
+        [
+          1,
+          "Interval (m)"
+        ],
+        [
+          2,
+          "Mud Wt (ppg)"
+        ],
+        [
+          3,
+          "MW range"
+        ],
+        [
+          4,
+          "ROP (m/hr)"
+        ],
+        [
+          5,
+          "RPM"
+        ],
+        [
+          6,
+          "WOB (klbf)"
+        ]
+      ],
+      "rows": [
+        [
+          "Claystone",
+          "0–743",
+          "9.56",
+          "9.1–9.9",
+          "32.6",
+          "137",
+          "8.3"
+        ],
+        [
+          "Shale",
+          "743–1,783",
+          "10.86",
+          "10.3–11.4",
+          "16.3",
+          "127",
+          "16.3"
+        ],
+        [
+          "Sandstone",
+          "1,783–2,817",
+          "12.12",
+          "11.4–12.9",
+          "15.8",
+          "117",
+          "22.9"
+        ],
+        [
+          "Limestone",
+          "2,817–3,180",
+          "13.51",
+          "13.4–13.6",
+          "8.0",
+          "98",
+          "32.6"
+        ]
+      ],
+      "bbox": [
+        0,
+        347.886703,
+        610,
+        456.54295
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w009-wcr-scanned",
+      "family": "NWIS synthetic scanned",
+      "page": 4,
+      "name": "events",
+      "positions": [
+        [
+          0,
+          "Event ID"
+        ],
+        [
+          1,
+          "Depth (m)"
+        ],
+        [
+          2,
+          "Formation"
+        ],
+        [
+          3,
+          "Event Type"
+        ],
+        [
+          4,
+          "Severity"
+        ],
+        [
+          5,
+          "Duration (hr)"
+        ]
+      ],
+      "rows": [
+        [
+          "E0053",
+          "500",
+          "Claystone",
+          "Cementing Issue",
+          "Medium",
+          "7.4"
+        ],
+        [
+          "E0052",
+          "592",
+          "Claystone",
+          "Cementing Issue",
+          "Low",
+          "3.7"
+        ],
+        [
+          "E0056",
+          "1,879",
+          "Sandstone",
+          "Wellbore Instability",
+          "High",
+          "19.0"
+        ],
+        [
+          "E0054",
+          "1,921",
+          "Sandstone",
+          "Mud Loss",
+          "High",
+          "15.3"
+        ],
+        [
+          "E0051",
+          "2,068",
+          "Sandstone",
+          "Mud Loss",
+          "Medium",
+          "5.5"
+        ],
+        [
+          "E0055",
+          "2,597",
+          "Sandstone",
+          "Mud Loss",
+          "Medium",
+          "6.1"
+        ]
+      ],
+      "bbox": [
+        0,
+        83.136714,
+        610,
+        229.29296
+      ],
+      "key_col": 0
+    },
+    {
+      "doc_id": "nwis-w010-ddr",
+      "family": "NWIS synthetic native",
+      "page": 1,
+      "name": "depth-progression",
+      "positions": [
+        [
+          0,
+          "Day"
+        ],
+        [
+          1,
+          "Date"
+        ],
+        [
+          2,
+          "From (m)"
+        ],
+        [
+          3,
+          "To (m)"
+        ],
+        [
+          4,
+          "Drilled (m)"
+        ]
+      ],
+      "rows": [
+        [
+          "01",
+          "26-Feb-2017",
+          "0",
+          "550",
+          "550"
+        ],
+        [
+          "02",
+          "27-Feb-2017",
+          "550",
+          "980",
+          "430"
+        ],
+        [
+          "03",
+          "28-Feb-2017",
+          "980",
+          "1,315",
+          "335"
+        ],
+        [
+          "04",
+          "01-Mar-2017",
+          "1,315",
+          "1,570",
+          "255"
+        ],
+        [
+          "05",
+          "02-Mar-2017",
+          "1,570",
+          "1,845",
+          "275"
+        ],
+        [
+          "06",
+          "03-Mar-2017",
+          "1,845",
+          "2,170",
+          "325"
+        ],
+        [
+          "07",
+          "04-Mar-2017",
+          "2,170",
+          "2,400",
+          "230"
+        ],
+        [
+          "08",
+          "05-Mar-2017",
+          "2,400",
+          "2,675",
+          "275"
+        ],
+        [
+          "09",
+          "06-Mar-2017",
+          "2,675",
+          "2,845",
+          "170"
+        ],
+        [
+          "10",
+          "07-Mar-2017",
+          "2,845",
+          "3,035",
+          "190"
+        ],
+        [
+          "11",
+          "08-Mar-2017",
+          "3,035",
+          "3,260",
+          "225"
+        ]
+      ],
+      "bbox": [
+        0,
+        364.386703,
+        610,
+        604.292944
+      ],
+      "key_col": 0
+    }
+  ]
+}

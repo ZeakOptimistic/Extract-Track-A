@@ -39,6 +39,31 @@ def k1_chunks_path() -> Path:
     if not path.is_file():
         raise FileNotFoundError(f"No K1 package at {path}: unzip Track A's package there or set GRAPHRAG_K1_CHUNKS (B-F56)")
     return path
+
+
+def k1_retrieval_chunks_path() -> Path:
+    release_chunks = k1_chunks_path()
+    configured = os.environ.get("GRAPHRAG_K1_RETRIEVAL_CHUNKS")
+    if configured:
+        return Path(configured)
+    if os.environ.get("GRAPHRAG_K1_ALLOW_RAW") == "1":
+        return release_chunks
+    from graph_builder.corpus.qa.cli import DEFAULT_OUT_ROOT
+    from graph_builder.corpus.qa.handoff import VIEW
+
+    return ROOT / DEFAULT_OUT_ROOT / release_chunks.resolve().parent.name / VIEW
+
+
+def load_k1_retrieval_chunks() -> list[Chunk]:
+    from graph_builder.corpus.qa.handoff import read_verified_view
+
+    release_chunks = k1_chunks_path()
+    view = k1_retrieval_chunks_path()
+    if not os.environ.get("GRAPHRAG_K1_RETRIEVAL_CHUNKS") and os.environ.get("GRAPHRAG_K1_ALLOW_RAW") == "1":
+        return load_chunks(path=release_chunks)
+    return parse_chunks(read_verified_view(release_chunks, view))
+
+
 # The 15 chunks the prototype extracted from (prototype/kgproto/extract.py SLICE).
 PROTOTYPE_SLICE = ["c0002", "c0010", "c0012", "c0013", "c0029", "c0037", "c0054", "c0055",
                    "c0004", "c0005", "c0008", "c0022", "c0026", "c0028", "c0031"]
@@ -79,15 +104,21 @@ class Chunk:
     table_id: str | None = None
     row_start: int | None = None
     row_end: int | None = None
+    numeric_review: tuple[dict, ...] = ()
 
 
 def load_chunks(docs: list[str] | None = None, path: Path = CHUNKS) -> list[Chunk]:
+    return parse_chunks(path.read_text(encoding="utf-8"), docs)
+
+
+def parse_chunks(text: str, docs: list[str] | None = None) -> list[Chunk]:
     out = []
-    for line in path.read_text(encoding="utf-8").splitlines():
+    for line in text.splitlines():
         row = json.loads(line)
         if docs is None or row["doc_id"] in docs:
             out.append(Chunk(row["chunk_id"], row["doc_id"], row["page"], row["type"], row.get("section"),
-                             row["text"], row.get("table_id"), row.get("row_start"), row.get("row_end")))
+                             row["text"], row.get("table_id"), row.get("row_start"), row.get("row_end"),
+                             tuple(row.get("numeric_review", ()))))
     return out
 
 

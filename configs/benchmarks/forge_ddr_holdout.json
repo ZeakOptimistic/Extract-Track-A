@@ -1,0 +1,213 @@
+{
+  "source_repository": "https://github.com/djimrastephane/ddr-rag-book",
+  "revision": "4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2",
+  "selection": "12 evenly spaced by filename from the 66 drilling PDFs outside the companion sample_ddrs directory",
+  "reference": "Nonblank literal header fields taken from the original PDF text layer before running Track A",
+  "documents": [
+    {
+      "doc_id": "forge-16a-dailyreport-002",
+      "file": "FORGE-16A-78-32_Drilling_002_2020-10-21.pdf",
+      "sha256": "60fd34bb6ac025d75e886d257d0afe80f5b572bf437db67c873bff6d63e9ae52",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_002_2020-10-21.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/21/2020",
+          "RPT NUM.: 2",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-009",
+      "file": "FORGE-16A-78-32_Drilling_009_2020-10-28.pdf",
+      "sha256": "548dd3bb1618dc68728e6ea1c67da2b80bc1c0151ca1dac901de08eef0e390ce",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_009_2020-10-28.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 10/28/2020",
+          "RPT NUM.: 9",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-015",
+      "file": "FORGE-16A-78-32_Drilling_015_2020-11-03.pdf",
+      "sha256": "59a1b758ca1243c643046c9dc537bed104611ed57ef30e7a4fb3172adfd77508",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_015_2020-11-03.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 11/03/2020",
+          "RPT NUM.: 15",
+          "WELL NAME: FORGE 16A [78]-32",
+          "MD/TVD: 1629"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-022",
+      "file": "FORGE-16A-78-32_Drilling_022_2020-11-10.pdf",
+      "sha256": "a626caa2a790307992a40a5ea93fda92435549a45725db71c52a1905af4fd795",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_022_2020-11-10.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 11/10/2020",
+          "RPT NUM.: 22",
+          "WELL NAME: FORGE 16A [78]-32",
+          "MD/TVD: 5042",
+          "24 HR FTG: 78",
+          "HRS DRLG: 7.5"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-028",
+      "file": "FORGE-16A-78-32_Drilling_028_2020-11-16.pdf",
+      "sha256": "28392fa7141bffdffb0132325729ad46b30b2b070f9bc50bcc1b2120c9286277",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_028_2020-11-16.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 11/16/2020",
+          "RPT NUM.: 28",
+          "WELL NAME: FORGE 16A [78]-32",
+          "MD/TVD: 5390",
+          "24 HR FTG: 190",
+          "HRS DRLG: 17"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-034",
+      "file": "FORGE-16A-78-32_Drilling_034_2020-11-22.pdf",
+      "sha256": "a281586851f055b1f1f5af239c6068314db85f0ad22936a106ee74ca750eff85",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_034_2020-11-22.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 11/22/2020",
+          "RPT NUM.: 34",
+          "WELL NAME: FORGE 16A [78]-32",
+          "MD/TVD: 5855",
+          "24 HR FTG: 62",
+          "HRS DRLG: 10"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-043",
+      "file": "FORGE-16A-78-32_Drilling_043_2020-12-01.pdf",
+      "sha256": "3dfaa87315df9c4a4b57257a588eebe684bb5955819ddea4349cda60bf4ec1b2",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_043_2020-12-01.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/01/2020",
+          "RPT NUM.: 43",
+          "WELL NAME: FORGE 16A [78]-32",
+          "MD/TVD: 7390"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-052",
+      "file": "FORGE-16A-78-32_Drilling_052_2020-12-10.pdf",
+      "sha256": "b68aed9f4d06e9427e3c471aa6165c4faabdb4008a656f7203817c63e4ced257",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_052_2020-12-10.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/10/2020",
+          "RPT NUM.: 52",
+          "WELL NAME: FORGE 16A [78]-32",
+          "24 HR FTG: 144",
+          "HRS DRLG: 2.5"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-058",
+      "file": "FORGE-16A-78-32_Drilling_058_2020-12-16.pdf",
+      "sha256": "b6eb457f50e85776c744238573b2e89efe1314148b51b176b9c8845fd85bc671",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_058_2020-12-16.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/16/2020",
+          "RPT NUM.: 58",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-064",
+      "file": "FORGE-16A-78-32_Drilling_064_2020-12-22.pdf",
+      "sha256": "63587d86a3ebbffb53632f3d95f2a259300172ab414b5b36bd869315d8120810",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_064_2020-12-22.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/22/2020",
+          "RPT NUM.: 64",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-070",
+      "file": "FORGE-16A-78-32_Drilling_070_2020-12-28.pdf",
+      "sha256": "e1c65a5336e5760aa0b24bf96d57a5043e04b8a89d72ff3ec4a12a22a54829a0",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_070_2020-12-28.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 12/28/2020",
+          "RPT NUM.: 70",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    },
+    {
+      "doc_id": "forge-16a-dailyreport-076",
+      "file": "FORGE-16A-78-32_Drilling_076_2021-01-03.pdf",
+      "sha256": "845b3e7ce439b7c96680ac50284eef9b920a382b8afe660514e170cc5164cea1",
+      "pages": 1,
+      "well": "FORGE 16A(78)-32",
+      "family": "WellEz daily drilling report",
+      "source_url": "https://github.com/djimrastephane/ddr-rag-book/blob/4c94867c3cf1fa0c779e2fb2bdbe2204cf6711f2/book/datasets/forge_archive/FORGE-16A-78-32_Drilling_076_2021-01-03.pdf",
+      "critical_phrases": {
+        "1": [
+          "RPT DATE: 01/03/2021",
+          "RPT NUM.: 76",
+          "WELL NAME: FORGE 16A [78]-32"
+        ]
+      }
+    }
+  ]
+}
